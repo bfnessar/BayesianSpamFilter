@@ -1,0 +1,35 @@
+Subject: Re: [SAtalk] O.T. Habeus -- Why?
+
+
+Bart Schaefer said:
+
+> This is off the topic of the rest of this discussion, but amavisd (in all
+> its incarnations) and MIMEDefang and several other MTA plugins all reject
+> at SMTP time messages that scores higher than some threshold (often 10).  
+
+argh, they do not, do they?   the FPs must be just gigantic :(
+
+> If some new release were to start scoring all spam no higher than 5.1,
+> there'd better be _zero_ FPs, because all those filters would drop their
+> thresholds to 5.
+
+Well, my point is more that we should aim our rescoring algorithm so that
+a spam hits 5.0.    Any higher does us no good, as it means an FP is
+a lot harder to recover from, using compensation rules.
+
+Spams *will* hit higher than that -- that's just the way the scoring works.
+but for our code to be effective, and spread the range of scores
+correctly, we just have to optimise to hit 1 threshold.
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

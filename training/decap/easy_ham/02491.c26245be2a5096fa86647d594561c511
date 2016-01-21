@@ -1,0 +1,18 @@
+Subject: [ILUG] dual keyboards
+
+Hi all.
+Does anyone know how to set up dual keyboards(one is actually a stand-alone
+keypad)?
+Both keyboards have PS/2 connections and I want the keypad to be plugged in
+as the primary input device.  Then if the other keyboard is plugged in, that
+should take over.
+Possible?  Any possible hacks?
+Thanks!
+Carlos
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

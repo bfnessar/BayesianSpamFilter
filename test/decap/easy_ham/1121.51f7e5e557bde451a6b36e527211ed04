@@ -1,0 +1,38 @@
+Subject: Re: ALSA (almost) made easy
+
+On Thu, 2002-08-29 at 01:06, Matthias Saou wrote:
+
+> > > Thanks a *lot* !  The RPMs seem to be fine, they worked for me out of
+> > > the box (on vanilla Valhalla w/latest errata).
+> > 
+> > ...except that I don't see an init script in the RPMs, a sample one
+> > designed for RH is supposed to be in "utils/alsasound".  Could you take
+> > a look if it can be included?
+> 
+> It doesn't need to as Red Hat Linux already sets correct permissions on all
+> ALSA audio devices for locally logged in users (through the console.perms
+> file) and the modules.conf files takes care of loading the right modules on
+> demand. Also, aumix and the scripts that come with Red Hat Linux still work
+> for controlling the volume, so it's still saved and restored when the
+> computer is halted, even using ALSA.
+
+Ah!  The mixer stuff was what made me look for an init script in the
+first place, I didn't bother to check whether the existing stuff would
+have worked with that.  Will try that out, you can assume silence ==
+success :)
+
+> >From what I can tell after only 2 days using it : ALSA rocks, especially
+> since having a full OSS compatibility results that it breaks nothing at
+> all! :-)
+
+Agreed.  Though with only 2 hours experience...
+
+-- 
+\/ille Skyttä
+ville.skytta at iki.fi
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

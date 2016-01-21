@@ -1,0 +1,33 @@
+Subject: Re: [SAtalk] custom score for a given domain?
+
+> MSG_ID_ADDED_BY_MTA   (4.0 points)
+> INVALID_MSGID         (1.8 points) 
+> MSG_ID_ADDED_BY_MTA_2 (1.6 points)
+
+Here are the new scores in the 2.40 branch (they may change, but they
+are better than before).
+
+score INVALID_MSGID                  1.226
+score MSG_ID_ADDED_BY_MTA            1.696
+score MSG_ID_ADDED_BY_MTA_2          0.532
+
+Total of 3.5 which is better than 7.4, I suppose.
+
+If they fixed their MSGID, it would help.  I suppose we could allow
+comments without hurting spam detection too much, but I'm reluctant
+(it's pretty bizarre to put a comment after the Message-ID header).
+
+Can you open a bugzilla ticket for this one?
+
+Dan
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

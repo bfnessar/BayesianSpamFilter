@@ -1,0 +1,26 @@
+Subject: Re: [SAdev] phew! 
+
+
+Matt Kettler said:
+> Ok, first, the important stuff. Happy birthday Justin (a lil late, but
+> oh well)
+
+cheers!
+
+> a 13% miss ratio on the spam corpus at 5.0 seems awfully high, although 
+> that nice low FP percentage is quite nice, as is the narrow-in of average 
+> FP/FN scores compared to 2.40.
+
+As Dan said -- it's a hard corpus, made harder without the spamtrap data.
+
+Also -- and this is an important point -- those measurements can't be
+directly compared, because I changed the methodology.  In 2.40 the scores
+were evolved on the entire corpus, then evaluated using that corpus; ie.
+there was no "blind" testing, and the scores could overfit and still
+provide good statistics.
+
+In 2.42, they're evaluated "blind", on a totally unseen set of messages,
+so those figures would be a lot more accurate for real-world use.
+
+--j.
+

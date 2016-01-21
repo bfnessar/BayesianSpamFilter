@@ -1,0 +1,27 @@
+Subject: From
+
+
+When I receive a message that has a line starting with "From ", it's
+broken into two messages.  I get my mail from /var/spool/mail.  The
+program that incorporates mail thinks that the "From " line starts a new
+message.
+
+My sysadmins have told me that the sending mail client is supposed to 
+escape lines begining with "From ".  EXMH (2.5) doesn't do this.  Should 
+it?  It appears that my MH is MH 6.8.  Does NMH fix this?
+
+Jason D. M. Rennie
+MIT AI Lab
+jrennie@ai.mit.edu
+(617) 253-5339
+http://www.ai.mit.edu/~jrennie/
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

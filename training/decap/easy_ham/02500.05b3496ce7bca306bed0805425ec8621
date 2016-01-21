@@ -1,0 +1,47 @@
+Subject: Re: [ILUG] Linux Install
+
+
+Hi,
+
+I think you need to give us a little more detailed information.
+
+On Wed, 04 Dec 2002, Gianni Ponzi wrote:
+
+> I have a prob when trying to install Linux (tried RedHat, Suse) on my
+> laptop. 
+
+You get _exactly_ the same problem with Suse and RedHat, is that right?
+What versions of these have you used?
+
+> I can start the install but after about 2min, the whole pc just
+> dies.
+
+As in freezes, reboots?  Do you get any errors?
+
+> I know it's not a Linux prob and here is what I have encountered:
+> 
+> I had the same problem when installing Win on it and eventually sorted it
+> out by disabling the infrared port. 
+
+Did you disable it in the BIOS or in windows?
+
+> I'm guessing this might be same prob although I'm not sure. I am very new
+> to Linux so it's not that easy for me to work it out. I did manage to
+> follow the setup procedure at one stage (using images on disks) and it
+> cuts out either as it's trying to verify what CD-Rom I have or just after
+> (hence my suspicion of the infrared port again).
+
+1. What laptop is it?  What is the Processor and how much RAM does it have?
+
+2. You cannot simply boot off the cdrom?  It must be quite an old laptop
+then or else cdrom booting is disabled in the BIOS.  Is the cdrom external
+or strange in some way?
+
+Gavin
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

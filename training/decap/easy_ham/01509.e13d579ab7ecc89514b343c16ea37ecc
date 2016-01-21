@@ -1,0 +1,30 @@
+Subject: Re: [SAtalk] telesp.net.br?
+
+From nobody Tue Oct 27 11:29:24 2015
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sun, Sep 22, 2002 at 02:33:48PM +0100, Justin Mason wrote:
+> I seem to be getting a *lot* of spam relayed via these guys recently.
+> Can others confirm this?
+>=20
+> if it's the case, I'll come up with a forged-hostname test for it.
+
+I do get some from them, typically some dsl.telesp.net.br host:
+
+% grep -c telesp.net.br *| sort -rn
+spammers-2002-09:59
+spammers-2002-08:64
+spammers-2002-07:23
+spammers-2002-06:13
+spammers-2002-05:4
+spammers-2002-04:2
+
+Definitely increasing per month.  Percentage-wise:  2002-09 has 1212
+spams in it, so 59/1212 is about 4.8%.  Last month was 3.6%.
+
+--=20
+Randomly Generated Tagline:
+I don't believe I've ever cuddled my elses.
+              -- Larry Wall in <199806221550.IAA07171@wall.org>

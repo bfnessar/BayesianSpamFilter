@@ -1,0 +1,24 @@
+Subject: Re: [SAtalk] Yeah right... If spamassassin was looking through th
+    is mail, it would have marked it as spam.
+
+
+Robert Strickler said:
+
+> Looks like we need an identity stamp in the X-Spam headers so that SA only
+> accepts headers from authorized sources.
+
+Well, SpamAssassin will just ignore any old X-Spam-whatever headers
+it finds, so that cannot be used to get around the filter.
+
+--j.
+
+
+-------------------------------------------------------
+In remembrance
+www.osdn.com/911/
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

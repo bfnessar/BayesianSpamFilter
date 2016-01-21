@@ -1,0 +1,24 @@
+Subject: Re: [SAtalk] Ignore System Messages - How?
+
+>>>>> "v" == vernon  <vernon@b2unow.com> writes:
+
+v> Some of my "Security Violations" and "Unusual System Events" are being 
+v> tagged as SPAM by SpamAssassin. How do I get SA to ignore these messages?
+
+whitelists.  you *really* have to white list any message source that
+discusses or is used to report spam, else the reports will be marked
+as spam, given that they have the spam indicators in them, usually...
+
+This is the *only* whitelisting I use.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

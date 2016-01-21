@@ -1,0 +1,23 @@
+Subject: Re: Help! I've lost my exmh-unseen window!
+
+>
+>	I'll have to try it with another window manager and see if I can
+>get exmh to put it back inside of sane boundaries. I don't have this
+>problem with any other windows, though. Just the exmhunseen window.
+>
+
+How about enabling the "Show unseen message count in folder cache"
+option? It displays the number of unseen messages next to each folder name
+(if greater than 0), so you don't really need the unseen window unless
+you're using more sequences than just "unseen".
+
+Paul
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

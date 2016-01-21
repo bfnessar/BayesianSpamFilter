@@ -1,0 +1,29 @@
+Subject: [SAdev] [Bug 1006] Spamassassin's build process makes packaging
+    unnecessarily difficult
+
+http://www.hughes-family.org/bugzilla/show_bug.cgi?id=1006
+
+
+
+
+
+------- Additional Comments From spamassassin-contrib@msquadrat.de  2002-10-03 13:57 -------
+A solution could be the preprocessor in combination with PM_FILTER -- if we 
+get the ExtUtils::MakeMaker versioning stuff right (see bug 1046). 
+
+
+
+------- You are receiving this mail because: -------
+You are the assignee for the bug, or are watching the assignee.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

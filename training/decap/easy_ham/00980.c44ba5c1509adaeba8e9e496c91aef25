@@ -1,0 +1,28 @@
+Subject: Re: Sorting
+
+On Mon, 9 Sep 2002, Rick Baartman wrote:
+> Is there a way to do a global Sort command?
+
+
+Wanting to sort like that is not common; I'd be surprised if exmh has
+a widget for it.  You can achieve what you want with the command-line
+mh tools, though.
+I suggest doing the following from a shell prompt:
+
+ sh -c 'for f in "`folders -recurse -fast`" ; do sortm +"$f" ; done'
+
+(The command "sortm" will sort a particular folder, and
+"folders -recurse -fast" prints out a list of all of your folders.)
+
+
+I hope this helps,
+ Jacob Morzinski                                jmorzins@mit.edu
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

@@ -1,0 +1,30 @@
+Subject: Movable Type 2.5 is out
+
+URL: http://diveintomark.org/archives/2002/10/08.html#movable_type_25_is_out
+Date: 2002-10-08T20:52:08-05:00
+
+Movable Type 2.5 is out. I'm running it and it appears to work. It incorporates 
+many suggestions from Dive Into Accessibility[1], a book which was written in 
+and is still powered by Movable Type. I find this amusing in a self-referential 
+sort of way. 
+
+The other big change is the inclusion of MT-search to allow users to have their 
+own site search. Every web site needs a site search[2]. Existing MT-search 
+users should merge the contents of mt-search.cfg into mt.cfg, change 
+"TemplateDir" to "SearchTemplatePath", and (if you use alternate templates) 
+change "AltTemplate1", "AltTemplate2", "AltTemplate3", etc. to "AltTemplate". 
+They should all just be "AltTemplate". 
+
+- Download MT 2.5[3]. 
+- MT 2.5 changelog[4]. 
+
+
+
+
+
+[1] http://diveintoaccessibility.org/
+[2] http://diveintoaccessibility.org/day_29_making_everything_searchable.html
+[3] http://www.movabletype.org/25/
+[4] http://www.movabletype.org/docs/mtchanges.html#2.5 (2002.10.08)
+
+

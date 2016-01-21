@@ -1,0 +1,49 @@
+Subject: Re: /home/dude
+
+On 14:22 29 Aug 2002, Matthias Saou <matthias@egwn.net> wrote:
+| Once upon a time, Axel wrote :
+| > I am now relaxed again ;), and pass this info on. Probably Matthias Saou
+| > himself is "dude", and some package has hardwired a path in his build
+| > directory. It would be nice to find out which and fix it, but I am using
+| > too many of the freshrpm suite to narrow it down.
+| 
+| Indeed, my usual login is "dude" (and has been since long before "The Big
+| Lebowsky" came out ;-)), and it seems the some programs wrongly hard code
+| my home directory when being compiled :-(
+| For instance :
+| 
+| [dude@python dude]$ strings /usr/bin/gentoo | grep dude
+| /home/dude/
+| [dude@python dude]$ strings /usr/bin/xine | grep dude
+| /home/dude/redhat/tmp/xine-root/usr/share/locale
+| 
+| These should probably be considered bugs in the program's build process
+| (especially for xine, look at that!), I'll report them upstream if/when I
+| have some time.
+
+This is a standard trap for people building things from source. It's
+generally wise to have a special "build" environment to avoid these
+hassles. Most likely you have some library loading path in your env. An
+strace of the app will show it:
+
+	the-app 2>&1 | grep dude
+
+Personally, I have a script called logbuild whose entire purpose is to
+start a shell with a minimal build environment, logged with script. The
+prevents this kind of error. Since configure yanks all sorts of ill
+documented values from one's environment for use in the build (CC, ARCH,
+various LD_* variables) this kind of thing is necessary.
+
+Often the easiest thing is to have a special nonroot account with no .profile
+for building stuff.
+
+Cheers,
+-- 
+Cameron Simpson, DoD#743        cs@zip.com.au    http://www.zip.com.au/~cs/
+
+Do not taunt Happy Fun Coder.
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+

@@ -1,0 +1,35 @@
+Subject: Re: [SAtalk] Spam host?
+
+
+"Mike Bostock" said:
+
+> Received: from tracking2 (tracking2.roving.com [10.20.40.142])
+> 	by ccm01.roving.com (Postfix) with ESMTP id 4696633ED4
+> 	for <mike@mydomain.co.uk>; Sun, 22 Sep 2002 17:57:03 -0400 (EDT)
+> X-Mailer: Roving Constant Contact
+> 5.0.Patch121c.P121C_SchedEnhancement_09_05_02
+> (http://www.constantcontact.com)
+> 
+> Is worthy of attention and a rule - if you go to their web site it
+> would appear that they are in the business of email mass marketing. 
+> Unfortunately their mailing to me got through Spamassassin :-(
+
+Interesting -- I haven't seen anything from these guys in about a year,
+but looking at your hdr they're still doing it.
+
+OK, come up with an X-Mailer rule that hits your mails, and we'll put it
+in testing...
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

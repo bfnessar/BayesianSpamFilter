@@ -1,0 +1,14 @@
+Subject: Re: [SAdev] GA-assigned SPAM_PHRASE_55_XX score
+
+jm@jmason.org (Justin Mason) writes:
+
+> BTW I tried tweaking some of the scores that lint-rules complained about
+> being negative when they shouldn't be, and it *ruined* the results.  it's
+> worth hand-tweaking a bit, but in some cases, there's counter-intuitive
+> combinatorial effects like the above, so be careful when tweaking; run
+> a "./logs-to-c && ./evolve -C" to check the new hitrates afterwards.
+
+My tendency is to say that we shouldn't tweak at all.
+
+- Dan
+

@@ -1,0 +1,27 @@
+Subject: Re: Problem building lame-3.92-fr5.src.rpm on RH8
+
+Once upon a time, Coy wrote :
+
+> I can't seem to build this package. It errors out because rpm found 
+> files not included in any of the packages. I tried getting them addes 
+> (it's the documentation that is being loaded) and was unsuccessful. 
+> Anyone get this to work?
+
+Hi,
+
+Could you post the list of files in question? Maybe more docs get generated
+when a certain doc tool is installed and that I didn't have it installed
+when I rebuilt the package :-/
+
+Matthias
+
+-- 
+Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10
+Load : 0.06 0.12 0.09, AC on-line, battery charging: 100% (1:47)
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

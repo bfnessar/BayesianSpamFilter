@@ -1,0 +1,22 @@
+Subject: [SAtalk] Having a problem
+
+Now that I have spam assassin and mailscanner working, how can I have smap
+deleted rather than forwarded?
+
+I changed spam.actions.conf to "default	delete" but it is still sending it
+to the recipient.
+
+Thanks,
+Ken
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

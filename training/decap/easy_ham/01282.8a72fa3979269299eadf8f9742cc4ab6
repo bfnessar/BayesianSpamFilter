@@ -1,0 +1,23 @@
+Subject: Re: Nessus?
+
+I've put up a new Red Hat Linux 8.0 build of nessus here :
+http://ftp.freshrpms.net/pub/freshrpms/testing/nessus/
+
+It's 100% untested, although the build should be ok. The new menu was
+added, but some configuration files may be better with new or different
+defaults.
+
+Feedback is very welcome!
+
+Matthias
+
+-- 
+Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi
+Load : 0.06 0.12 0.17
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

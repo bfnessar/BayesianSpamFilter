@@ -1,0 +1,21 @@
+Subject: [Razor-users] Fire.cloudmark.com is having issues
+
+I noticed a drop in checks, and did some tests.  If I move truth up in
+my catalog list, a check comes back postive, but if I move fire up in
+the list, then I don't get the positive check back.  It's almost like
+it's not syncing up with Hubris which is the one my reports are getting
+sent to.
+
+-=Bobby
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

@@ -1,0 +1,35 @@
+Subject: Re: Anolther sequence related traceback
+
+    Date:        Mon, 26 Aug 2002 09:27:56 -0500
+    From:        Chris Garrigues <cwg-dated-1030804078.e8b0d5@DeepEddy.Com>
+    Message-ID:  <1030372078.11075.TMDA@deepeddy.vircio.com>
+
+  | Tell me what keystroke made it happen so I can reproduce it and I'll
+  | see what I can do about it (or if I can't, I'll hand it off to Brent).
+
+Don't worry too much about it, you seem to have plenty of other things
+to do in the immediate future, and this one isn't so critical that people
+can't use the code in normal ways.
+
+But, to make it happen, type (with normal key bindings) any digit, so the
+code thinks you're trying a message number, then backspace, so the digit
+goes away, then '-' (other junk characters don't seem to have the
+problem, I have just been playing).   That will do it (every time).
+
+That is: 0 ^h -
+
+Once you get into that state, the same traceback occurs for every
+character you type, until a message is selected with the mouse.
+
+This is looking like it might be easy to find and fix, so I'll take a
+look at it later.
+
+kre
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+

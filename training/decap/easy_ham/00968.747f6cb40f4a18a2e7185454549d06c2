@@ -1,0 +1,43 @@
+Subject: Re: New Sequences Window
+
+From nobody Tue Oct 27 11:29:24 2015
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Brent Welch <welch@panasas.com>
+> Date:  Wed, 28 Aug 2002 22:40:21 -0700
+>
+> Well, I've used the check-the-modify-time cache trick for files in
+> many places (not just exmh) so some part of me certainly thinks it
+> is effective.  However, it occurred to me that if we do checkpoint
+> state, then aren't we modifying the sequences file for the current
+> folder on every message read?  Perhaps we look at the sequences file
+> more than once per message view?  
+
+As I'd written the code a few months ago, we were reading the sequences file 
+first to see what sequences were in it and then once per sequence.  This 
+happens anywhere that we look at sequences, most notably in Ftoc_ShowSequences.
+That seemed to be an obvious lose performancewise, but I wanted my abstraction to 
+have a separate call for "what sequences are in this folder?" and "what 
+messages are in this sequence?".  One option would have been to add another 
+call to get the data off of disk, but I felt that the check-the-modify-time 
+technique would be less error-prone.
+
+I think the biggest gains would be from augmenting Ftoc_ShowSequences to allow 
+a finer specification of what needs to be updated in the ftoc so that the 
+current code would only be run when we really do have to update all sequences 
+for all messages.  I described these thoughts in an email message yesterday.
+
+And again, if it can wait a few weeks, I'm willing to do it.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

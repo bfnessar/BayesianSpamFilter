@@ -1,0 +1,17 @@
+Subject: [Spambayes] spambayes package?
+
+
+    >> If and when we package this, perhaps we should use Barry's trick ...
+
+    Greg> It's not a *trick*!  It just requires this
+
+    Greg>   package_dir = {'spambayes': '.'}
+
+    Greg> in the setup script.
+
+That has the nasty side effect of placing all .py files in the package.
+What about obvious executable scripts (like timtest or hammie)?  How can I
+keep them out of the package?
+
+Skip
+

@@ -1,0 +1,97 @@
+Subject: Re: traceback in new exmh
+
+From nobody Tue Oct 27 11:29:24 2015
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Scott Lipcon <slipcon@mercea.net>
+> Date:  Mon, 23 Sep 2002 17:49:47 -0400
+>
+> Chris, 
+> 
+> I'm home now, and this copy of exmh is pretty bad -  I'm running from
+> CVS on Sunday night - the only change since then was the one you made
+> this morning for "bulletproofing in MhReadSeqs".
+> 
+> I run exmh, and I can visably see it count up the number of unseen
+> messages as it looks through the folders - I have about 3000 unseen
+> messages in maybe 10 or 12 folders.    It takes a few seconds for all
+> of the folders in the fcache to turn blue.  
+
+This is true...it's now looking at more than just unseen, so it takes a little 
+while (in the background) to build the sequences window.  There is probably 
+some tuning possible in this area.
+
+> In +inbox, I have 4 unread messages.  They aren't blue, they are
+> white background with a normal colored font.
+
+I changed the default display of unseen messages from a foreground of blue to 
+a background of white to make it possible to see what other sequences unseen 
+messages may be in.  I *did* ask Brent before I did it.  If you like the old 
+behavior, the old lines are still in app-defaults-color, but commented out.
+
+> If I click on a message, I get the following traceback:
+> 
+> invalid command name "Mh_MarkSeen"
+>     while executing
+> "Mh_MarkSeen $exmh(folder) $msgid"
+>     (procedure "Hook_MsgShow_update_unseen" line 5)
+>     invoked from within
+> "$cmd $mhProfile(path)/$exmh(folder)/$msgid mimeHdr"
+>     (procedure "MsgShow" line 23)
+>     invoked from within
+> "MsgShow $msgid"
+>     (procedure "MsgChange" line 18)
+>     invoked from within
+> "MsgChange 66 show"
+>     invoked from within
+> "time [list MsgChange $msgid $show"
+>     (procedure "Msg_Change" line 3)
+>     invoked from within
+> "Msg_Change $msgNum $show"
+>     (procedure "Msg_Pick" line 8)
+>     invoked from within
+> "Msg_Pick $lineno show"
+>     (procedure "FtocRangeEnd" line 12)
+>     invoked from within
+> "FtocRangeEnd [lindex [split [.ftoc.t index current] .] 0] 0"
+>     (command bound to event)
+
+This is because of your Hook_MsgShow_update_unseen which is calling a function 
+which no longer exists.
+
+I suspect you need
+	Seq_Del $exmh(folder) unseen $msgid
+now instead of 
+	Mh_MarkSeen $exmh(folder) $msgid
+
+> It appears that the message does get marked as seen though, as it
+> loses the white background, and nmh reports the same.  
+> 
+> If I click the flist button, it zero's the unseen count, and then
+> there is again a visible delay as it counts up all the unseen 
+> messages - maybe 3-4 seconds.
+> 
+> I really think my installation is OK now, but if this behavior is just
+> really strange I'll blow everything away and reinstall.  I'm happy to
+> spend some time helping to track this down, I don't really need exmh.
+> I'm comfortable enough using nmh.
+> 
+> Scott
+> 
+> 
+> 
+> _______________________________________________
+> Exmh-workers mailing list
+> Exmh-workers@redhat.com
+> https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

@@ -1,0 +1,27 @@
+Subject: Re: Sorting
+
+From nobody Tue Oct 27 11:29:24 2015
+Content-Type: text/plain; charset=us-ascii
+
+
+On Tue, 10 Sep 2002 09:27:12 PDT, J C Lawrence writes:
+>I run exmh on my desktops at home and at work with the resulting
+>exmh windows being displayed on both my work and home desktops (gratis
+>SSH X11 forwarding).  In fact, your message was read and replied to
+>(this message) while at work, using an exmh instance running on my home
+>machine.
+
+So you have 4 copies (1+1 per desktop) of exmh running?
+
+That's what I usually do, but what I'd really like would be some 
+ automagism to tell them "Flist", "Rescan Folder", which I now do 
+ manually whenever I'm going to work at the "other" machine.
+
+cheers,
+&rw
+-- 
+-- In the first place, God made idiots;
+-- though this was for practice only;
+-- then he made users. (Mark Twain, modified)
+
+

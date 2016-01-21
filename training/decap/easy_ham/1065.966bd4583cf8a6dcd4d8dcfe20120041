@@ -1,0 +1,23 @@
+Subject: Re: Sorting
+
+> > On Mon, 9 Sep 2002, Rick Baartman wrote:
+> Thanks Tom and Jacob. The above works, but without the double quotes: i.e. 
+> 
+> sh -c 'for f in `folders -recurse -fast` ; do sortm +"$f" ; done'
+> 
+But there is a problem with making changes outside of exmh: the .xmhcache files 
+don't get updated. This is dangerous; I have to remember to re-scan each folder 
+I enter. Is there a safeguard for this?
+
+--
+rick
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

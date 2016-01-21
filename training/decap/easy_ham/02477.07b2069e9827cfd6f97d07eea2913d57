@@ -1,0 +1,39 @@
+Subject: Re: [Spambayes] Current version
+
+
+[Paul Moore]
+>    but let's walk before we run - after all, we may end up
+>    all using Zodb in any case :-)
+
+I'd like this (despite the additional installation burden - we can ship
+binaries for Windows and Mac) and not only for technical reasons.  As I
+understand it, post-1.8x versions of the core bsddb code ship under the
+Sleepycat license, which demands that projects using it must be
+published-source.  This is a problem if we want Spambayes to be fully
+PSF-licensed - if someone wants to take the Spambayes source and fund their
+addictions by creating a commercial, closed-source spam-filter product, the
+PSF license allows that but not if the code relies on bsddb.  Not that I'm
+in favour of people making money from Spambayes (unless it's me 8-) but the
+PSF license does allow for it - it should be all or nothing.  Or do I have
+this all wrong?
+
+Slightly OT: This has concerned me since PLabs announced that they were
+integrating bsddb into Python 2.3 - it's going to make it very easy
+(especially on Windows) for someone to write code that uses anydbm, wrap it
+up with Py2exe and ship it under a commercial license, not knowing that
+they're breaking the Sleepycat license.  They've never heard of Sleepycat
+Software or even bsddb - as far as they're concerned, this "bsddb.pyd" file
+that Py2exe tells them they need to ship is just another part of Python,
+like _socket.pyd or select.pyd.
+
+-- 
+Richie Hindle
+richie@entrian.com
+
+
+_______________________________________________
+Spambayes mailing list
+Spambayes@python.org
+http://mail.python.org/mailman/listinfo/spambayes
+
+

@@ -1,0 +1,49 @@
+Subject: Re: [Razor-users] Razor: shall I use it with AMaViS or with
+    SpamAssassin?
+
+Depends on how you want to use it.
+
+The default setup of running it from procmail works just fine, as long as 
+you remember to go into your postfix/main.cf file, and tell it to use 
+procmail instead of the internal delivery agent.
+
+On Thu, 19 Sep 2002, Boniforti Flavio wrote:
+
+> How do I intergrate razor into my postfix setup? Will it have to
+> interact with AMaViS or with SpamAssassin?
+> 
+> Thank you
+> 
+> Boniforti Flavio
+> Informa Srl
+> Via 42 Martiri, 165
+> 28924 Verbania (VB)
+> Tel +39 0323 586216
+> Fax +39 0323 586672
+> http://www.co-ver.it/informa
+> 
+> 
+> 
+> 
+> -------------------------------------------------------
+> This sf.net email is sponsored by:ThinkGeek
+> Welcome to geek heaven.
+> http://thinkgeek.com/sf
+> _______________________________________________
+> Razor-users mailing list
+> Razor-users@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/razor-users
+> 
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

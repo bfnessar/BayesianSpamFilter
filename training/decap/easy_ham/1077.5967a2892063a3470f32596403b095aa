@@ -1,0 +1,25 @@
+Subject: Re: Sorting
+
+> > You're probably running exmh on a local machine.  I'm running it on a
+> > very remote machine.  In this scenario, the mime handling is weak.
+> 
+> Nope.  I run exmh on my desktops at home and at work with the resulting
+> exmh windows being displayed on both my work and home desktops (gratis
+> SSH X11 forwarding).
+
+I run exmh routinely from home (broadband) using an XWindows Client tunneled through ssh under <ahem> WinXP.  It works very well in this fashion.
+
+FWIW, I use Eudora under Winder$ because it's less of a virus magnet.  :)
+
+There's more to the story why I run Winder$, but that's really off-topic and I'm already guilty!
+
+-=d
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

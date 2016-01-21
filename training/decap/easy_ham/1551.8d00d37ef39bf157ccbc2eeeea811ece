@@ -1,0 +1,49 @@
+Subject: [SAtalk] Reject, Blackhole, or Fake No-User?
+
+This is not directly SpamAssassin related, but more of a general
+dealing-with-SPAM issue.
+
+What is the best way to deal with SPAM during the SMTP transaction?
+There are domains and addresses that I know are SPAM at the 'MAIL
+FROM' and can deal with at the SMTP level. I have been, and I think
+most people, respond with a 5.7.1 code, a "permanent" error. That
+pretty much means, "Don't bother to try from that address again,
+you'll get the same error." People often add cathartic messages to
+accompany the 550 like, "Spammers must die."
+
+But this might not be the best way to go. You are telling the spammers
+that you are on to them. This may cause them to try other methods to
+get around your blocks. Is it perhaps better to blackhole the mail?
+That is, act like everything is OK during the SMTP transaction, but
+then just drop the mail into the bitbucket. (This is generally how
+SpamAssassin works since almost everyone uses it after the SMTP
+transaction has completed successfully.) Spammer thinks everything is
+going fine and has no reason to try new methods.
+
+Then there is a third possibility. Instead of returning a 550 code
+indicating you're on to the spammer, fake a 5.1.1 response which is
+saying "mailbox does not exist." This would be in the hopes that some
+spammers out there actually remove names reported as non-existent from
+their lists. I know, a slim hope, but even if only a few do, it can
+lower the incidence.
+
+So, what are the arguments for each? Do spammers even look at _any_ of
+the bounce messages they get? The volume of bounces must be
+huge. Personally, I'm starting to think blackholes are the way to
+go... But sending back that "Spammer die, die, die," or stock "Access
+DEE-NIED!" (my ephasis added) message can be pretty satisfying. ;)
+-- 
+Crist J. Clark                     |     cjclark@alum.mit.edu
+                                   |     cjclark@jhu.edu
+http://people.freebsd.org/~cjc/    |     cjc@freebsd.org
+
+
+-------------------------------------------------------
+In remembrance
+www.osdn.com/911/
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

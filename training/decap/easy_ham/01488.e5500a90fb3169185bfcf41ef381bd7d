@@ -1,0 +1,29 @@
+Subject: Re: [SAdev] Re: [SAtalk] SpamAssassin and unconfirmed.dsbl.org
+
+jm@jmason.org (Justin Mason) writes:
+
+> Folks who've been hacking on the DNSBLs: would it be worthwhile commenting
+> this in HEAD, seeing as it only gets .77 anyway?
+> 
+> Sounds like the (a) broken server and (b) low hitrate combine to make it
+> not-so-useful IMO.
+
+No, in my opinion, it's purely a bug in SA (or the libraries we use,
+which is the same thing) that we don't handle outages of network
+services better.
+
+The rule is useful and it does help reduce spam, we should keep it.  I
+have a feeling the DNSBL rules will cluster a bit more heavily around
+the 1.0 to 2.0 range once we start using the new GA on them.
+
+Also, 0.77 was a slightly conservative number.  Since I didn't have
+real-time data, I typically used the lower or median number of different
+periods (most recent month, two months, six months), depending on the
+trend of the period data (better performance for recent messages ->
+favor recent scores, worse performance for recent messages -> favor
+lowest scores, never pick the highest number unless the rule was very
+accurate and the highest number was for the most recent data).
+
+Dan
+
+

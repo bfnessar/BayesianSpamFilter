@@ -1,0 +1,39 @@
+Subject: Unseen window versus Sequences Window
+
+
+I apologize for not catching up to the current code in so long.
+
+Now that I have I'm trying to resolve "breakage" and differences.
+
+The unseen window seems to have been replaced with the sequences 
+window.  While I appreciate the flexibility of the sequences 
+window, the unseen window filled an important-to-me need:  It 
+was tiny and could be set to show on all desktops of a virtual 
+window manager without taking a lot of space.  Since my normal 
+mode of operation involves two copies of exmh displaying on a 
+1024x768 vnc session, screen space is at a premium.
+
+As things stand now, I have a sequences window that shows a lot
+more information than I need to have handy and takes up a lot 
+more room than I can "spare".
+
+I can see that I could like the new sequences window a lot for 
+certain operations.  But I'd like a nice uncluttered, tiny 
+window that _only_ shows me info on my unread mail.
+
+One possibility that occurs to me would be a button or mouse
+click that "shrinks" the Sequences window to show only the
+sequences in the "always show" list.  And of course a way to 
+expand it back.
+
+--Hal
+
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

@@ -1,0 +1,51 @@
+Subject: Re: RedHat 8.0 and his own freetype
+
+From nobody Tue Oct 27 11:29:58 2015
+Content-type: text/plain; charset=us-ascii; format=flowed
+Content-transfer-encoding: 7BIT
+
+Following further study, I've concluded:
+
+   1. It is easy to enable the bytecode interpreter.
+
+   2. This noticeably improves rendering of non-antialiased text.
+
+   3. This noticeably *harms* rendering of antialiased text.
+
+Point #3 probably surprises the rest of you as much as it surprised me. 
+  Ever since turning on the bytecode interpreter, I've been bugged by a 
+sense that the antialiased text in my GNOME2 applications just looked, 
+well, wrong somehow.  I finally took some comparison screen shots with 
+and without the interpreter, and that made the difference crystal clear.
+
+Consider the two images attached below.  The first, "no-bytecodes.png", 
+shows some text rendered by a GNOME2 panel menu without the bytecode 
+interpreter.  Contrast this with the second, "bytecodes.png", taken with 
+the bytecode interpreter enabled.
+
+When the bytecode interpreter is turned on, notice that several 
+rendering anomalies appear:
+
+   - Several letters are narrower, giving the whole run of text a more
+     compressed feel.  This is especially noticeable in "R" and "o".
+
+   - The left side of the "Q" is painted in too light a shade of grey,
+     causing it to drop out somewhat.  "C", not in this sample, has the
+     same problem.
+
+   - "Qu" are set right up against each other, with insufficient
+     whitespace between them.
+
+   - "M" is distinctly asymmetric.
+
+   - The enclosed loop of "a" looks muddy, as it is partially filled
+     with grey.  Contrast with "a" drawn without the bytecode
+     interpreter, which has a nice clear open loop.
+
+Ick.  Perhaps this is why Red Hat turned the bytecode interpreter off. 
+It may improve non-antialiased rendering, but only at the expense of 
+making a mess of antialiased rendering.
+
+This may come down to a matter of personal aesthetics, but for my part, 
+I'm going back to Red Hat's standard packages with the bytecode 
+interpreter turned *off*.

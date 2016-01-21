@@ -1,0 +1,40 @@
+Subject: Re: Help! I've lost my exmh-unseen window!
+
+In article <E17tS0T-0001zD-00@rds059> you write:
+>>>> Patrick Salsbury writes:
+>
+>  Patrick> One of the features I really like about exmh is the
+>  Patrick> ability to see which folders have unseen messages in
+>  Patrick> them, but recently, it seems to have vanished into the
+>  Patrick> bowels of my window manager in a place I can't get
+>  Patrick> to. It claims to be running, but doesn't appear
+>  Patrick> anywhere onscreen. (I'm using Enlightenment with a 2x2
+>  Patrick> virtual desktop. I've tried dropping it to only 1
+>  Patrick> screen. No help.)
+>  Patrick>
+>
+>This may not help/work but I've discovered recently that
+>Alt-middle-mouse pops up a list of all of my windows.  If I leave
+>my mouse on the background, it lists Alt-middle-mouse as "Display
+>Task List Menu".
+>
+>HTH,
+>
+>- Bill
+	When I do that, it just moves my mouse to the very edge of a window
+(probably trying to center it on the off-screen window in question.) 
+
+	I'll have to try it with another window manager and see if I can
+get exmh to put it back inside of sane boundaries. I don't have this
+problem with any other windows, though. Just the exmhunseen window.
+
+Pat
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

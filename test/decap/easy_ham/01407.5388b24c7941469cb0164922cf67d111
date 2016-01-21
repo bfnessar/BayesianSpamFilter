@@ -1,0 +1,59 @@
+Subject: Re: Storing passwords
+
+If you need to store a database password, then
+clearly the first step is to store the text outside the
+web tree.  You can encrypt it and store the encryption key elsewhere,
+so that at least an attacker has to get two different things.
+Also, don't get full privileges - create a user account that
+is GRANTed very limited access.
+
+However, you can often do better than this if security
+is critical.  Create a separate program which has these
+database keys (as noted above), and make the web program
+contact IT.  Create a very limited protocol that ONLY
+lets you do the operations you need (you can add specific
+operations later).  There's a performance hit, which you're
+trading for improved data isolation.
+
+
+
+Giorgio Zoppi wrote:
+
+> On Fri, Aug 23, 2002, David Wheeler wrote:
+> 
+> 
+>>The standard way to store passwords is... not to
+>>store passwords.  Instead, store a salted hash of
+>>the password in a database.  When you get a purported
+>>password, you re-salt it, compute the hash, and
+>>determine if they are the same.  This is how
+>>Unix has done it for years.  You want bigger hashes
+>>and salts than the old Unix systems, and you still want
+>>to prevent reading from those files (to foil password crackers).
+>>More info is in my book at:
+>>   http://www.dwheeler.com/secure-programs
+>>
+> 
+> Well...but this cannot be applied to database password, which most
+> web apps use. The only solution I figure is store in clear outside web
+> tree, any other ideas feasible?
+> 
+> Ciao,
+> Giorgio.
+> 
+> --
+> Never is Forever - deneb@penguin.it
+> Homepage: http://www.cli.di.unipi.it/~zoppi/index.html
+> --
+> 
+> 
+> 
+
+
+-- 
+
+--- David A. Wheeler
+     dwheeler@ida.org
+
+
+

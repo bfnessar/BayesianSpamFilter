@@ -1,0 +1,27 @@
+Subject: [Spambayes] test sets?
+
+
+>>>>> "GW" == Greg Ward <gward@python.net> writes:
+
+    GW> If you (and Guido, Barry, et. al.) prefer, I could change that
+    GW> last statement to "folder = None", so the mail won't be saved
+    GW> at all.
+
+I don't care if the mail is foldered on python.org, but personal
+messages regardless of who they're for, shouldn't be part of the
+public spambayes repository unless specifically approved by both the
+recipient and sender.
+
+Note also that we are much more liberal about python.org/zope.org
+mailing list traffic than most folks.  Read list-managers for any
+length of time and you'll find that there are a lot of people who
+assert strict copyright over their collections, are very protective of
+their traffic, and got really pissed when gmane just started
+gatewaying their messages without asking.
+
+Which might be an appropriate for their lists, but not for ours (don't
+think I'm suggesting we do the same -- I /like/ our laissez-faire
+approach).
+
+But for personal email, we should be more careful.
+-Barry

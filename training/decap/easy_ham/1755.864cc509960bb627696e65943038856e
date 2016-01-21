@@ -1,0 +1,15 @@
+Subject: [Spambayes] Deployment
+
+
+    >> Dunno about the other tools, but SpamAssassin is a breeze ...
+    >> SpamAssassin also adds other headers as well, which give you more
+    >> detail ...
+
+    Guido> Do you feel capable of writing such a tool?  It doesn't look too
+    Guido> hard.
+
+Sure, but at the moment I have to stop reading email for a few hours and do
+some real work. ;-) I'll see if I can modify GBayes.py suitably over the
+weekend.
+
+Skip

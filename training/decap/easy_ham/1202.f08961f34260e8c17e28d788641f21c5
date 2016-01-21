@@ -1,0 +1,40 @@
+Subject: Re: New testing packages
+
+
+BTW: I just a found a quite nice looking apt repositry for all kinds of
+audio apps at
+
+http://ccrma-www.stanford.edu/planetccrma/software/
+
+Peter
+
+
+On Thu, 2002-09-19 at 23:28, Angles Puglisi wrote:
+> Matthias Saou (matthias@rpmforge.net) wrote*:
+> >- I've rebuilt a new "alsaplayer" package based on Angle's one.
+> 
+> Cool, one less package to maintain :)
+> 
+> One interesting thing about alsaplayer is that RedHat's XMMS package in RH8 will
+> probably not play mp3 files. But alsaplayer does play mp3s "out of the box".
+> 
+> Also, they are developing rapidly in their CVS and looks like their next version
+> of alsaplaer will be pretty cool, but I have no idea when it will be ready.
+> 
+> --
+> That's "angle" as in geometry.
+> 
+> 
+> 
+> _______________________________________________
+> RPM-List mailing list <RPM-List@freshrpms.net>
+> http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,58 @@
+Subject: Re: [SAtalk] Blocking ?
+
+This is possible, however using SA as a block criteria is not recommended. 
+SA does have a very realistic chance of mis-marking mail so using it as an 
+autodelete function is at best extraordinarily foolish.
+
+
+However, here's what the procmail rule will look like (dug up from an old 
+post to this list by Steve Thomas):
+--------------------------------------------------------------------
+in your .procmailrc file:
+
+:0
+* x-spam-status: yes
+/dev/null
+
+
+DO NOT DO THIS! You'll throw out a LOT of legitimate messages over time.
+
+Instead, do what the docs suggest and put them into a separate mail folder:
+
+:0:
+* x-spam-status: yes
+$MAILDIR/spam
+--------------------------------------------------------------------
+
+
+At 02:55 PM 11/25/2002 +0100, Erik Jakobsen wrote:
+>Hi.
+>
+>How can I block e-mails comming to me by aid of SA ??.
+>--
+>Med venlig hilsen - Best regards.
+>Erik Jakobsen - erik@urbakken.dk
+>SuSE Linux 8.1
+>
+>
+>-------------------------------------------------------
+>This sf.net email is sponsored by:ThinkGeek
+>Welcome to geek heaven.
+>http://thinkgeek.com/sf
+>_______________________________________________
+>Spamassassin-talk mailing list
+>Spamassassin-talk@lists.sourceforge.net
+>https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+
+
+-------------------------------------------------------
+This SF.net email is sponsored by: Get the new Palm Tungsten T 
+handheld. Power & Color in a compact size! 
+http://ads.sourceforge.net/cgi-bin/redirect.pl?palm0002en
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

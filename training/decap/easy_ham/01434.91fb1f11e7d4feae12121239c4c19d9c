@@ -1,0 +1,40 @@
+Subject: [SAtalk] Re: Custom actions for high scoring spam
+
+Thank you Lars for your reply to my query.
+
+> SA doesnt do any of these. It is probably a function of whatever scanning
+system/MDA
+> you're using (amavis, procmail, whatever). What exactly are you using?
+
+I am using SpamAssassin as part of the MailScanner package (using sendmail
+as the MTA). It integrates nicely in there, and shares a configuration file
+with SA. All very neat.
+
+> SA in itself does nothing really. You need a frontend (procmail, amavis,
+etc)
+> at some point in the  mail delivery chain that can hand over the message
+> to SA and do whatever other processing you want.
+
+I thought that SA rated a message with a certain score, then did a certain
+action (such as store | deliver | delete) based on the configuration given.
+I was hoping there were some other actions that I could custom-program in.
+
+Again, many thanks,
+
+
+Adrian
+
+
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

@@ -1,0 +1,38 @@
+Subject: Re: Anolther sequence related traceback
+
+From nobody Tue Oct 27 11:29:25 2015
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Robert Elz <kre@munnari.OZ.AU>
+> Date:  Mon, 26 Aug 2002 14:00:18 +0700
+>
+>     Date:        Fri, 23 Aug 2002 10:58:20 -0500
+>     From:        Chris Garrigues <cwg-dated-1030550301.a24bc5@DeepEddy.Com>
+>     Message-ID:  <1030118301.3993.TMDA@deepeddy.vircio.com>
+> 
+>   | Interesting...I don't think this was my bug.
+>   | It appears that Msg_Change was asked to change to message "-".
+> 
+> Something like that is quite possible, but perviously typing nonsense
+> in didn't cause tracebacks, and now it does, and the traceback came
+> from the sequence code...
+> 
+> Perviously this would have just caused red messages in the status
+> line complaining about my lousy typing.   That's probably what it
+> should keep on doing (the "red" part isn't important obviously..)
+
+Tell me what keystroke made it happen so I can reproduce it and I'll see what 
+I can do about it (or if I can't, I'll hand it off to Brent).
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

@@ -1,0 +1,29 @@
+Subject: Secure Sofware Key
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+Hi, 
+   I am wondering if there are any techniques to make a CD-Key of the like 
+unbreakable.  Either by giving it a cancelation date and a periodic renewal 
+from a server or just by using self md5 signature on the resulting 
+executable.  I know it must not be easy because the whole software piracy 
+problem would be resolved but there must be some way to make it really hard 
+to break it.  Anyone have hints on this issue ?
+
+Thanks
+
+- -- 
+Yannick Gingras
+Network Programer
+ESC:wq
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.0.6 (GNU/Linux)
+Comment: For info see http://www.gnupg.org
+
+iD8DBQE9bpYzuv7G0DNFO+QRAqBhAKChTeKXwD8zDMwf+okAKJXnnpknwACgtXZ7
+v3bBABue0VX/Uy86Fhn9Ifs=
+=Uwqj
+-----END PGP SIGNATURE-----
+

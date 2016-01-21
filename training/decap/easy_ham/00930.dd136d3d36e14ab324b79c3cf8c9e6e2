@@ -1,0 +1,25 @@
+Subject: Re: [SAdev] Integrating SA with Mail::CheckUser ?
+
+On Thu, 22 Aug 2002 the voices made Justin Mason write:
+
+> > The perl-module Mail::CheckUser implements a smtp-callback and I hope
+> > it might be integrated rather easily.
+> > Has this extension been discussed before (and perhaps rejected)?
+> > Or perhaps someone is already planning to implement it?
+> > Or would you be interested to integrate a smtp-callback-patch in
+> > SpamAssassin if contributed by my department? We would not be to happy
+> > about such a patch which we had to manage and integrate with SA in the
+> > future, but I believe a one-time contribution would be no problem.
+
+ How'd this deal with you running SA on an account where all the mail from some
+domain on another server ends up?
+
+
+	/Tony
+-- 
+# Per scientiam ad libertatem! // Through knowledge towards freedom! #
+# Genom kunskap mot frihet! =*= (c) 1999-2002 tony@svanstrom.com =*= #
+
+     perl -e'print$_{$_} for sort%_=`lynx -dump svanstrom.com/t`'
+
+

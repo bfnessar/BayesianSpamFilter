@@ -1,0 +1,45 @@
+Subject: Re: use new apt to do null to RH8 upgrade?
+
+On Wed, 2 Oct 2002 10:53:24 +0200, Matthias Saou <matthias@egwn.net> wrote:
+
+> >     Anyway, I have returned to Redhat 7.3 on my root filesystem (saved my
+> >     home directories, music and games on other partitions) and while I
+> >     have the 8.0 stuff in the list, everything I want to upgrade requires
+> >     200+ RPMs.
+
+   Yeah, but I try to 'take it easy' on your server.  The golden rule of the internet: when you find a free resource, don't piss'em off!  :)  I really appreciate your work; you get done the things I wish I could, and I respect that.
+
+> Anyway, although I'd easily recommend upgrading 7.x to 7.3 using apt, I
+> wouldn't for 7.x to 8.0 as they are C++ binary incompatible... and apt is
+> entirely written in C++ and dynamically linked :-/
+
+    OK, I'll search for the ISOs on the  one remaining site that isn't hammered.  :)
+ 
+> Still, that doesn't explain a core dump :-(
+
+    Sure: this is a linking issue, right?  Right now I'm still pure-vanilla.  I have the stock version of rpm/rpmlib/popt/etc and the recommended version of apt that you gave me.  No, wait...there's no new code getting loaded.  I don't know, either.  It's been a long day.
+
+> >     What's the inside secret here, or do I just start searching mirrors
+> >     for the ISO and get over it?
+> 
+> Why "search"? There's more than enough to choose from here :
+> http://freshrpms.net/mirrors/psyche.html
+
+   The hunt continues- with a new field!  (Actually I checked there yesterday, but it's worth another shot.)
+
+    Thanks!
+  
+------------------------------------------------------------------------
+Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+Evansville, IN                    My Voyage: http://www.CounterMoon.com
+ICQ  5119262
+------------------------------------------------------------------------
+Just machines, to make big decisions- programmed by fellas with
+compassion and vision.  We'll be clean when that work is done;
+Eternally free and eternally young.  Linux.
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

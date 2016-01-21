@@ -1,0 +1,18 @@
+Subject: Re: [SAdev] SpamAssassin POP3 proxy
+
+
+> I would be in favor of creating new SpamAssassin CVS modules and
+> Bugzilla categories for other clients (provided there is sufficient
+> interest and a maintainer).
+
+yeah, I'd be with that -- as long as they have a maintainer ;)
+
+however regarding CVS, I'd say many projects might find it easier
+to just sign up as a new proj with sf.net -- it might save them having
+to go through us (not sure, depends on what sf.net's procedures
+are like).
+
+--j.
+
+
+

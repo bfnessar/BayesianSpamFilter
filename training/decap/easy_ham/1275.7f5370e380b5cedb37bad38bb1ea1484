@@ -1,0 +1,36 @@
+Subject: hi
+
+Hello,
+
+I'm new to the list.
+I wanted to find out who tried recompiling a working apt rpm for (null) or 
+psyche.  I would like to get good GStreamer packages done by monday when 
+it's released.
+
+BTW, in the archive I saw some posts regarding the GStreamer repository.  
+I'm not sure why they were posted on this list ;) In any case, I'm the rpm 
+maintainer, so if you have any questions, feel free to ask.
+
+I was trying to get an updated apt rpm from http://dave.cridland.net/, but 
+the http port is closed.  Dave, if you're reading this, please let me know 
+where I can get the updated rpm.
+
+Thanks,
+Thomas
+
+-- 
+
+The Dave/Dina Project : future TV today ! - http://davedina.apestaart.org/
+<-*-                      -*->
+Just like you said
+you leave my life
+I'm better off dead
+<-*- thomas@apestaart.org -*->
+URGent, the best radio on the Internet - 24/7 ! - http://urgent.rug.ac.be/
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

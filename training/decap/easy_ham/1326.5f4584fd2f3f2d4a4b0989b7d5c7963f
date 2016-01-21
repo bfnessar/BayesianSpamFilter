@@ -1,0 +1,28 @@
+Subject: Re: K3B
+
+On Fri, 04 Oct 2002 03:25:30 +0200
+Vincent <cult@free.fr> wrote:
+
+# If I get troubles with the .tar.gz source file compilation, will it
+# work with the .src.rpm source file compilation ?
+# If it will, how do I manage with a .src.rpm file, sorry, I don't
+# remeber :(
+
+The .src.rpm will prompt you for what packages you need to complete
+the compile.
+
+rpmbuild --rebuild --target=$arch file.src.rpm
+
+-- 
+Jesse Keating
+j2Solutions.net
+Mondo DevTeam (www.mondorescue.org)
+
+Was I helpful?  Let others know:
+ http://svcs.affero.net/rm.php?r=jkeating
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

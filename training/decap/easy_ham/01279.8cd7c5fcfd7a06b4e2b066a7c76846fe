@@ -1,0 +1,19 @@
+Subject: Re: RH 8 no DMA for DVD drive
+
+On Mon, 2002-10-07 at 20:28, Matthias Saou wrote:
+
+> I guess I'll settle for the /dev/dvd link change as described and putting
+> the DMA tip in the %description :-)
+
+Thanks, I'll sleep better now :)
+
+-- 
+\/ille Skyttä
+ville.skytta at iki.fi
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

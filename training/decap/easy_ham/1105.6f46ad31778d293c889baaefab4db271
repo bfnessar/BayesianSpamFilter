@@ -1,0 +1,36 @@
+Subject: Re: bad focus/click behaviours
+
+On Fri, 13 Sep 2002, Dale Alspach wrote:
+> My experience has been that if the item is showing in xclipboard
+> and is highlighted that is what is pasted using the mouse.
+
+Classic X copy-and-paste behavior is that you can only paste what is
+currently highlighted.  In fact, it is the act of highlighting a
+selection that actually copies that selection into the buffer.  X has
+no "copy" command -- if you highlighted it, you just copied it.
+
+> This does not seem to override what is in an application's own
+> paste buffer. As far as I can tell Maple's cut and paste, for
+> example, is isolated.
+
+If ab application has a "copy" command that you can choose to use
+separately from the process of highlighting something, that command
+is something the application authors wrote on their own.  (And it it
+likely that an application that wrote an internal "copy" command would
+also have their own customized "paste" command, to make sure the two
+work together.)  Whether the internal (custom) select and paste
+functions interoperate with the X server's global select and paste
+functions will vary from program to program, because in each case you
+are relying on the program's authors' efforts to blend separate systems.
+
+
+ Jacob Morzinski                                jmorzins@mit.edu
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

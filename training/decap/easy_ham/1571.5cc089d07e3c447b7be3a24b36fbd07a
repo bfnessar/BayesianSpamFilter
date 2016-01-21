@@ -1,0 +1,21 @@
+Subject: [SAdev] spamc load balancing to multiple spamd
+
+
+I have searched the list but did not find any info on this. 
+
+How do I setup multiple spamd machines so that spamc load balances - or 
+anything similar? 
+
+Duane.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

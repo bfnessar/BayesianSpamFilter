@@ -1,0 +1,35 @@
+Subject: [Razor-users] How to test razor
+
+I have a spamd/spamc/razor/dcc setup.
+
+My razor logs are full of:
+
+Sep 10 09:48:48.411339 check[10200]: [ 1] [bootup] Logging initiated 
+LogDebugLevel=3 to file:/home/omega13/.razor/razor-agent.log
+Sep 10 09:48:49.391309 check[10200]: [ 3] mail 1 is not known spam.
+
+The problem is that all the entries show "is not known spam"  I can't believe 
+I'm that lucky.  So, how do I test to see that my razor installation is 
+working properly.  I've been up to my ears in documentation for the past few 
+days, so, if the reference is easy, just point me to it.  Otherwise a brief 
+hint on how to, would be appreciated.
+-- 
+Robin Lynn Frank
+Paradigm-Omega, LLC
+==================================
+Gandalf fell at Khazadum.
+Sheridan fell at Z'ha'dum.
+Avoid high places in 
+locations ending in "dum"
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

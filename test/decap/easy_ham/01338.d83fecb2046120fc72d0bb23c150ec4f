@@ -1,0 +1,71 @@
+Subject: Re: [SAtalk] Re: patent on TMDA-like system
+
+>>From tmda.net/history.html:
+
+The first release of TMDA in April 2001 was essentially a rewrite of TMS in
+Python, <snip>
+
+April 2001 is earlier than July 26, 2001... prior art..
+
+from http://tmda.net/releases/old/
+ Parent Directory        19-Aug-2002 16:14      -
+ README.MD5SUM           19-Aug-2002 16:14     4k
+ tmda-0.01.tgz           22-Apr-2001 15:59    11k
+ tmda-0.02.tgz           26-Apr-2001 12:06    12k
+ tmda-0.02.txt           26-Apr-2001 12:50     1k
+ tmda-0.10.tgz           27-Apr-2001 21:14    39k
+ tmda-0.10.txt           30-Apr-2001 11:36     3k
+ tmda-0.11.tgz           02-May-2001 17:17    38k
+ tmda-0.11.txt           02-May-2001 17:06     3k
+ tmda-0.12.tgz           10-May-2001 19:50    39k
+ tmda-0.12.txt           10-May-2001 19:48     1k
+ tmda-0.13.tgz           17-May-2001 15:53    39k
+ tmda-0.13.txt           17-May-2001 15:57     2k
+ tmda-0.14.tgz           24-May-2001 16:43    46k
+ tmda-0.14.txt           24-May-2001 16:40     4k
+ tmda-0.15.tgz           28-May-2001 15:20    47k
+ tmda-0.15.txt           28-May-2001 15:20     1k
+ tmda-0.20.tgz           06-Jun-2001 17:52    49k
+ tmda-0.20.txt           06-Jun-2001 18:46     6k
+ tmda-0.21.tgz           18-Jun-2001 18:32    51k
+ tmda-0.21.txt           18-Jun-2001 18:31     2k
+
+TMDA was already at 0.21 8 days before filing for a patent..
+
+----- Original Message -----
+From: "Jason R. Mastaler" <jason-exp-1031164464.7f11b3@mastaler.com>
+To: "Justin Mason" <yyyy@spamassassin.taint.org>
+Cc: <spamassassin-talk@example.sourceforge.net>; <tmda-users@tmda.net>
+Sent: Tuesday, August 27, 2002 11:34 AM
+Subject: [SAtalk] Re: patent on TMDA-like system
+
+
+jm@jmason.org (Justin Mason) writes:
+
+> Sounds a lot like TMDA to me. :( Filing date is July 26, 2001,
+> granted May 16, 2002.
+>
+> TMDAers, have you seen this before?
+
+No, but thanks for pointing it out.
+
+> I'd presume TMDA is prior art, but still, it could be troublesome...
+
+Yup.  TMDA's core functionality was fully established before even the
+filing date.
+
+Anyone with experience in this area have a recommendation on whether
+this should be pursued or not?
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+
+

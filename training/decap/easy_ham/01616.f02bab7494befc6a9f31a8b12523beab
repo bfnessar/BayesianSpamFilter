@@ -1,0 +1,34 @@
+Subject: Re: [Razor-users] Razor and Pine
+
+On Wed, 9 Oct 2002, Brian Fahrlander wrote:
+
+> On Wed, 9 Oct 2002 09:15:03 -0400 (EDT), Samuel Checker <sc@pffcu.org> wrote:
+>
+> > I've been testing Razor, invoked from sendmail/procmail and so far it
+> > seems pretty copacetic. Last night's spam to the list provided a good test
+> > - the spam itself as well as several of the responses were flagged, as
+> > other list members reported.
+> >
+>
+>     Are you using Spamassassin on the input side?  I've just changed my sendmail installation and am looking for the 'proper' way to pass it through there, systemwide, before accepting it and sending it to the users.  It's kinda problematic to set up procmail scripts for every user, when the user's home directories are NFS mounted....and the source is on my own machine, on which I try new things. (And it's the only machine with the drivespace...)
+>
+
+I've not used Spamassassin on the KISS principle. I just have procmail
+adding an X-header and optionally modifying the Subject if razor-check
+comes back positive.
+
+-- 
+sc
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

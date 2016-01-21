@@ -1,0 +1,15 @@
+Subject: [Spambayes] XTreme Training
+
+On 10 September 2002, Tim Peters said:
+> Why would spam be likely to end up with two instances of Return-Path
+> in the headers?
+
+Possibly another qmail-ism from Bruce Guenter's spam collection.  Or
+maybe Anthony's right about spammers being stupid and blindly copying
+headers.  (Well, of course he's right about spammers being stupid; it's
+just this particular aspect of stupidity that's open to question.)
+
+        Greg
+-- 
+Greg Ward <gward@python.net>                         http://www.gerg.ca/
+Think honk if you're a telepath.

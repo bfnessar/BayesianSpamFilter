@@ -1,0 +1,37 @@
+Subject: Re: Xine dependencies
+
+On 04 Oct 2002 22:25:31 -0400, QuaffA Pint <quaffapint@clippersoft.net> wrote:
+
+> On a RH 8 box, I'm trying to install your package
+> xine-0.9.13-fr5.i386.rpm, I keep running into dependency problems.  I've
+> tried to install the dev and lib rpm's as well and they error out with
+> dependency problems on each other (they each want something from the
+> other's package).
+> 
+> I've tried the --without options, but still end up with (similar for the
+> regular package),
+> 
+> 	glut is needed by xine-libs-0.9.13-fr5
+>         aalib is needed by xine-libs-0.9.13-fr5
+>         lirc is needed by xine-libs-0.9.13-fr5
+>         libaa.so.1 is needed by xine-libs-0.9.13-fr5
+>         libglut.so.3 is needed by xine-libs-0.9.13-fr5
+> 
+> What am I missing here?
+
+    "apt-get install xine".  It'll find all these.  Oh, and I'm told that Redhat 8.0 will also suggest things like this for ya. (Not apt, but the actual package names you need)
+
+------------------------------------------------------------------------
+Brian Fahrländer              Linux Zealot, Conservative, and Technomad
+Evansville, IN                    My Voyage: http://www.CounterMoon.com
+ICQ  5119262
+------------------------------------------------------------------------
+Just machines, to make big decisions- programmed by fellas with
+compassion and vision.  We'll be clean when that work is done;
+Eternally free and eternally young.  Linux.
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

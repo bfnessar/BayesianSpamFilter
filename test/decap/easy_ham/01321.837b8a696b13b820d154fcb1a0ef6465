@@ -1,0 +1,49 @@
+Subject: Re: Whitelisting (Re: [SAtalk] SA In The News)
+
+There is a whitelist RBL now!  Ironport's Bonded Sender is 
+basically a whitelist RBL where you post a bond to get on the 
+list, and then lose the bond if you end up spamming from that IP 
+address (or something like that).  http://www.bondedsender.org/
+
+C
+
+On Sunday, August 25, 2002, at 07:58  PM, Bart Schaefer wrote:
+
+>> 4. DNSBL: Only certifies an ip address, not who is using it. As it is
+>> currently used, DNSBL allows you to look up if some IP address 
+>> has been
+>> blacklisted by someone. What I haven't seen is a service that 
+>> provides a
+>> DNS based whitelist.
+>
+> There's a practical reason for that:  Any DNS list (white or 
+> black) works
+> only for a limited number of IPs; the set of unlisted IPs is 
+> much larger
+> than the set in the DNS list.  If you have to make a binary decision to
+> accept or reject, you'll be wrong less often if you reject the 
+> blacklist
+> and accept everything else, rather than accept the whitelist and reject
+> everything else.
+>
+> A whitelist is only helpful when (a) you only want mail from a limited
+> number of known sources, or (b) you can use a secondary system 
+> like SA to
+> decide what to do with the vast unlisted masses.  Most MTAs still make
+> only the binary decision, because the secondary computation is 
+> expensive.
+>
+> With SA's cooperation, though, it might be worth a try.  Even better if
+> one could get commercial anti-spam outfits to agree to factor it in.
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

@@ -1,0 +1,51 @@
+Subject: Re: Ringing bell on other computer
+
+
+> > > 
+> > >   Dag> but when procmail runs it it doesn't, presumably as it
+> > >   Dag> doesn't have the authorization to communicate with the
+> > >   Dag> laptop, beeing another user?
+> > > 
+> > > I don't know anything about the KDE sound server but I'd guess 
+> > > your problem is the "environment" in which procmail runs.  You 
+> > > don't say what procmail is running from.  In my case, for 
+> > > example, procmail is run from fetchmail which is run by a cron 
+> > > job.
+> > 
+> > Sorry about that,
+> > procmail is run by the qmail delivery agent to presort all mail
+> > I get.
+> > But anyway, I found an error message in procmail.log, which solved
+> > the problem.
+> > The following line in my delivery script seems to work fine now:
+> > 
+> > DISPLAY=<laptop>:0.0 artsplay <soundfile>
+> 
+> BTW, if you use exmhwrapper (found in the misc directory), you can generalize 
+> this to
+> 
+> DISPLAY=`cat $HOME/.exmh/.display` artsplay <soundfile>
+
+Yes, but that probably means that you have to have exmh
+running on the laptop to get the notification?
+With exmh getting upset by two instances running at the
+same time, this creates the problem that I cannot  run to the
+closest compter to check out the new mail.
+
+But thanks for the hint, I might use that for some other
+hack ;-)
+
+BRGDS
+
+Dag
+
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

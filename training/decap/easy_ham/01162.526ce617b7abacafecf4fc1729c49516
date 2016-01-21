@@ -1,0 +1,52 @@
+Subject: Re: CVS report
+
+From nobody Tue Oct 27 11:29:24 2015
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Anders Eriksson <aeriksson@fastmail.fm>
+> Date:  Thu, 22 Aug 2002 18:55:03 +0200
+>
+> 
+> 
+> 
+> > > > > Just cvs up'ed and nowadays Catch-up Unseen is __extremely__ slow o
+> n 
+> > > > > large (>100 msgs) unseen sequences. Anybody else having this proble
+> m?
+> > > > 
+> > > > I'll take the blame.
+> > > > 
+> > > > The reason, I suspect, is that we're needlessly reading the .sequence
+> s file 
+> > > > multiple times because of other sequences.  I need to make the code m
+> uch 
+> > > > smarter about handling that file, but first I have a few other fish t
+> o fry in 
+> > > > my rather large patch that's on it's way.
+> > > > 
+> > > 
+> > > No panic,
+> > > 
+> > > I'm all for cleaning things up before getting it optimized.
+> > 
+> > Okay, this fix is now checked in.
+> > 
+> I'm afraid it didn't help. It still seems to be slower than ~1 month 
+> ago. Maybe slightly faster than yeasterday. I'm (still) seeing an 
+> "unseen countdown" in the log.
+
+Okay....Catchup unseen is something that I don't use often, but i can 
+certainly reproduce this.  I'll dig into it.  It's probably simple.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

@@ -1,0 +1,41 @@
+Subject: [SACVS] CVS: spamassassin spamassassin.raw,1.76,1.77
+
+Update of /cvsroot/spamassassin/spamassassin
+In directory usw-pr-cvs1:/tmp/cvs-serv4429
+
+Modified Files:
+	spamassassin.raw 
+Log Message:
+fixed bug 1033: -R and -W were not respecting auto_whitelist_path
+
+Index: spamassassin.raw
+===================================================================
+RCS file: /cvsroot/spamassassin/spamassassin/spamassassin.raw,v
+retrieving revision 1.76
+retrieving revision 1.77
+diff -b -w -u -d -r1.76 -r1.77
+--- spamassassin.raw	26 Sep 2002 17:14:59 -0000	1.76
++++ spamassassin.raw	2 Oct 2002 13:20:32 -0000	1.77
+@@ -218,6 +218,9 @@
+   if ($@) { warn $@; }
+ 
+   if ($doing_whitelist_operation) {
++    # read the config!
++    $spamtest->init (1);
++
+     if ($opt{'add-to-whitelist'}) {
+       $spamtest->add_all_addresses_to_whitelist ($mail);
+     } elsif ($opt{'remove-from-whitelist'}) {
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-commits mailing list
+Spamassassin-commits@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-commits
+
+

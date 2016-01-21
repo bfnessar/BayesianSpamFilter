@@ -1,0 +1,27 @@
+Subject: RE: [Razor-users] Razor with sendmail
+
+On Aug 23 Bort, Paul wrote:
+
+>If your sendmail has been compiled with Milter support, you can add SMRazor
+>easily. We've been using it for a while without problems. Others on the list
+>have mentioned it as well. 
+>
+>http://www.sapros.com/smrazor/
+
+Does this fork+exec a perl interpreter for every incoming mail? If so, I 
+reckon your mailer is vulerable to a DoS attack without too much effort...
+The real question is: is there a way to run razor without this overhead?  
+Even some sort of razord you could talk to over a unix socket would do.
+Until I can find one, I cannot spare the resources to run razor at all :(
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+

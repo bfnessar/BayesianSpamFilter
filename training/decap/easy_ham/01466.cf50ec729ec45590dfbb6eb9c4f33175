@@ -1,0 +1,37 @@
+Subject: Re: [SAtalk] Reject, Blackhole, or Fake No-User
+
+Op 12-09-2002 00:35 schreef Ellen Clary (ellen@dgi.com):
+
+>> Then there is a third possibility. Instead of returning a 550 code
+>> indicating you're on to the spammer, fake a 5.1.1 response which is
+>> saying "mailbox does not exist." This would be in the hopes that some
+>> spammers out there actually remove names reported as non-existent from
+>> their lists. I know, a slim hope, but even if only a few do, it can
+>> lower the incidence.
+> 
+> They don't, I can guarantee that.  Quite a few spamtraps nowadays
+> operate by 5nn'ing for 6 months in the hope of getting legit mailers
+> to remove bouncing addrs from lists;  then after 6 months, they just
+> spamtrap all incoming mail to those addrs.  (unfortunately a lot of
+> legit mailers don't bother cleaning their lists either.)
+
+Most spammers don't check reply codes at all, they just send out as many
+mails as their system will hold without checking for any confirmation.
+
+A trick to lower spam reception was dicussed on the postfix mailing list
+some time ago: answer all incoming mail with a 4xx temporary error code when
+it is offered the first time, and accept it the second time. Apparently most
+mass-emailers don't even try to deliver a second time.
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

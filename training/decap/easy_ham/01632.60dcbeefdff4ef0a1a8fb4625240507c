@@ -1,0 +1,39 @@
+Subject: Re: Secure Sofware Key
+
+On Thursday 19 September 2002 16:44, Michael McKay wrote:
+> On Tue, Sep 03, 2002 at 09:03:40PM -0400, Yannick Gingras wrote:
+> > This make me wonder about the relative protection of smart cards.
+> They have an internal procession unit around 4MHz.  Can we consider them as
+> trusted hardware ?
+
+SmartCards do not have fixed clock rates (more often than not) as the ISO spec 
+dictates that they are externally powered and clocked, but SmartCards used 
+for security purposes (usually JavaCards) have built-in crypto co-processors 
+that make clock rate irrelevant. 4mhz SmartCards can often preform triple-DES 
+faster than general purpose processors clocked at ten times the speed.
+
+That said, clock rate has nothing with how trustworthy a card is. As Michael 
+pointed out, there's something of an arms-race between manufacturers and 
+attackers which has nothing to do with clock rate, and time and time again 
+what we've seen is that it's not a question of "is it secure", it's a 
+question of "who is it secure from and for how long?" Security is rarely a 
+question of absolutes (despite the often boolean nature of a break), rather 
+it's a question of assessing, quantifying, and managing risk. SmartCards are 
+designed to address threats in which the cost of protection cannot exceed the 
+$1-20 range (depending on the application).
+
+As whether or not they are "trusted hardware", the question again revolves 
+around attacker and timeframe. One might expect a bored undergrad EE student 
+to have more trouble revealing the contents of a pilfered smartcard than, 
+say, a governtment intelligence service. If your goal is to keep undergrad 
+EEs from perpetrating mass fraud in the caffeteria, then a smartcard is 
+likely "trustworthy" enough for your application. If your aim is to protect 
+ICBM launch codes, then it's probably the wrong tool. In either application, 
+a risk/cost ratio must justify the use of the protection measure in question.
+
+-- 
+Alex Russell
+alex@SecurePipe.com
+alex@netWindows.org
+
+

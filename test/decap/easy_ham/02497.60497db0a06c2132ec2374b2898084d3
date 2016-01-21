@@ -1,0 +1,64 @@
+Subject: Re: [ILUG] Linux Install
+
+Hi Gianni,
+
+A very good resource for this is:
+http://linux-laptop.net/
+or:
+http://www.mobilix.org/
+
+They have walk through guides for an umber of latops, highlighting what
+to look out for.
+
+Have a look there, and let us know if you succeed.
+
+Cheers,
+
+Phil Trickett
+
+On Wed, 2002-12-04 at 11:36, Gianni Ponzi wrote:
+> Hi all
+> 
+> 
+> I have a prob when trying to install Linux (tried RedHat, Suse) on my
+> laptop. I can start the install but after about 2min, the whole pc just
+> dies.
+> I know it's not a Linux prob and here is what I have encountered:
+> 
+> I had the same problem when installing Win on it and eventually sorted it
+> out by disabling the infrared port. I'm guessing this might be same prob
+> although I'm not sure. I am very new to Linux so it's not that easy for me
+> to work it out. I did manage to follow the setup procedure at one stage
+> (using images on disks) and it cuts out either as it's trying to verify what
+> CD-Rom I have or just after (hence my suspicion of the infrared port again).
+> 
+> can anyone help ?
+> 
+> thanks
+> Gianni
+> 
+> 
+> ************************************************************************
+> This e-mail and any files transmitted with it are confidential
+> and intended solely for the use of the individual or entity to
+> which they are addressed. If you have received this e-mail
+> in error, please notify the EPA postmaster - postmaster@epa.ie
+> 
+> The opinions contained within are personal to the sender and 
+> do not necessarily reflect the policy of the Environmental 
+> Protection Agency.
+> 
+> This footnote also confirms that this e-mail message has been
+> swept by MIMEsweeper for the presence of computer viruses.
+> 
+> ************************************************************************
+-- 
+Philip Trickett <phil@techworks.ie>
+TechWorks Marine Ltd
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+

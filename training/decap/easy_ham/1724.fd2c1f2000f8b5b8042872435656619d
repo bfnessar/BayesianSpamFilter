@@ -1,0 +1,39 @@
+Subject: Re: use of base image / delta image for automated recovery from
+    attacks
+
+From nobody Tue Oct 27 11:29:25 2015
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+
+
+> Simple approxmation to this: make /usr a separate partion, and mount it=
+=20
+> read-only:
+>=20
+>    * The good news: attackers that want to trojan your software have to
+>      reboot, at least.
+>    * The bad news: administrators that want to update your software
+>      have to reboot, at least.
+
+No reboot is required, you just need to remount it:
+
+	# mount -o remount,rw /usr
+
+This requires root access, but presumably /usr is safe from non-root
+users anyway.
+
+Only way to disable this is to have the kernel compiled with something
+that compartmentalizes capabilities (LIDS/etc on Linux for example) or to
+remove CAP_SYS_ADMIN with lcap, which would definately require a reboot,
+and possibly break some other functionatily to boot.  (Pun intended.  My
+apologies.)
+
+--
+Brian Hatch                  "Are you expected?"
+   Systems and               "No.  Dreaded."
+   Security Engineer
+www.hackinglinuxexposed.com
+
+Every message PGP signed

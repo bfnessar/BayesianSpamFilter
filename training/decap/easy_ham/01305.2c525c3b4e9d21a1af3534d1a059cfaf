@@ -1,0 +1,23 @@
+Subject: Re: Apt 0.3 and 0.5
+
+Once upon a time, Thomas wrote :
+
+> Should I expect problems if my apt server is running RH 7.3/Apt 0.3 and
+> some clients are coming on line and will be running RH 8.0/Apt 0.5? Do
+> the two different version interoperate?
+
+No problems whatsoever. Currently apt.freshrpms.net is running 7.3 with apt
+0.3 and many 8.0 clients with 0.5 are using it.
+
+Matthias
+
+-- 
+Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10
+Load : 0.10 0.11 0.10, AC on-line, battery charging: 100% (1:47)
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

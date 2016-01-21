@@ -1,0 +1,32 @@
+Subject: Re: [SAtalk] Bayesian and bogofilter
+
+>Anyway I'm making good progress and my implementation works reasonably
+>well.  It now seems blindingly clear that we want a tightly-integrated
+>implementation of Naive Bayes spam/nonspam classification.  There are
+>still some things about how to do this right inside SA that I still am
+>figuring out.
+>
+>Dan
+
+This is very good news! Will this allow for individual spam word file
+preferences when spamassassin is running on a mailserver for multiple
+users? This would be an outstanding addition if it can be done. Thanks
+much for a great project.
+
+-- 
+Regards,
+
+Eric Mings Ph.D.
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

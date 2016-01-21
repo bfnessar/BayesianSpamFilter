@@ -1,0 +1,12 @@
+Subject: [Spambayes] stack.pop() ate my multipart message
+
+[Neale Pickett]
+> And then, just as I was about to fall asleep, I figured it out.  The
+> tokenizer now has an extra [:], and all is well.  I feel like a real
+> chawbacon for not realizing this earlier.  :*)
+
+Good eye, Neale!  Thanks for the fix.
+
+> Blaming it on staying up past bedtime,
+
+Blame it on Barry.  I do <wink>.

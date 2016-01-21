@@ -1,0 +1,35 @@
+Subject: Re: [SAtalk] 2.42: est release?
+
+
+Malte S. Stretz said:
+> 1046 is fixed. But what about
+> 1011 (add a notice about IRIX and -m to the docs),
+> 1031 (cygwin's EXE_EXT),
+> 1043 (a cosmetic but rather disturbing one ;-),
+
+all now fixed!
+
+> 1004 (TO_MALFORMED borken),
+
+WONTFIX ;)
+
+> 1006 (packaging related)?
+
+eh, will leave this for 2.50. ;)
+
+OK, if there's nothing moderately serious shown up tonight, I'll release
+it tomorrow AM (GMT).
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

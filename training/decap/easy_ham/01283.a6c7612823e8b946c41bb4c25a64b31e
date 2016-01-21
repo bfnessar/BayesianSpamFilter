@@ -1,0 +1,24 @@
+Subject: Re: xmms and .mp3 files.
+
+humberto@hpcf.upr.edu wrote:
+
+>Redhat 8 disables all support for .mp3 files, relinking xmms with a zzmp3 
+>module. Does anyone have a fixed spec file for xmms? One that can play mp3's 
+>would be best.
+>
+>  
+>
+oh xmms didn't work for me also
+i used mpg123 i tought its something from me
+like mplayer not working also and gives black screen
+
+
+
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

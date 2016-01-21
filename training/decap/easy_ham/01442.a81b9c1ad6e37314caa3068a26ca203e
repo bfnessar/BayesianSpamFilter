@@ -1,0 +1,39 @@
+Subject: [SAtalk] Thought for RPM/deb/etc packagers
+
+BTW, I've been thinking a little about the RPMs and other packages.
+Already the PLD guys are distributing 3 rpms:
+
+  - perl-Mail-SpamAssassin
+
+          the perl modules.
+
+  - spamassassin
+
+          the "spamassassin" and "spamd" scripts,
+          spamd rc-file etc.
+
+  - spamassassin-tools
+
+          mass-check, masses directory stuff, etc.
+          for generating rescore data from corpora.
+
+This seems like a good way to do it; this way, stuff which just needs
+the perl modules doesn't need to require the full RPM be installed,
+with RC files in init.d etc.
+
+It's been adopted in the distributed .spec file, anyway.
+
+Theo, BTW, what's the eval test you add in the tvd version of the RPM?
+
+--j.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

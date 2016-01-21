@@ -1,0 +1,31 @@
+Subject: Re: [SAtalk] Still confused about spamd/c
+
+From nobody Tue Oct 27 11:29:25 2015
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Sat, Sep 14, 2002 at 04:27:47PM +0100, Justin Mason wrote:
+> It's probably that razor needs to be "razor-register"'d for each user.
+> Try creating a world-writable "home dir" for Razor and DCC et al to store
+> their files in; that way spamd will share the razor server info etc.
+> between all users.
+
+uh, no, you don't want to make it world-writable.  world-readable.
+
+> Then use "spamd -H /path/to/world/writeable/dir" .
+
+Just remember that the .razor and whatever DCC uses needs to be
+world-readable as well.  The solution is then to make a world-writable
+log file for at least Razor.  I like symlinking /dev/null myself.
+
+> IMO this is more efficient than using "spamd -H", which will use each
+> user's own home dir for this data, but it's a matter of opinion ;)
+
+efficient?  probably (depends on the user base), but it also takes
+the control away from the user (which may or may not be a good thing,
+depending again on the user base...)
+
+--=20
+Randomly Generated Tagline:
+"What's funny?  I'd like to know.  Send me some E-Mail." - Prof. Farr

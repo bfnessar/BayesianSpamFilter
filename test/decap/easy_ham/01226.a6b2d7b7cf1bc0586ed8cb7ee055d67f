@@ -1,0 +1,22 @@
+Subject: Re: use new apt to do null to RH8 upgrade?
+
+Matthias Saou (matthias@egwn.net) wrote*:
+>You're really better off backuping all placed where you know you've hand
+>edited or installed some files. For me that's only /etc/, /root/ and
+>/home/. Then you reinstall cleanly, formating "/", put your /home/ files
+>back into place and you're ready to go.
+
+Matthias I gotta believe you, I've been using your RPMs for some time now :) That's
+the way I'll do it. A clean start but with the old configs at the ready for diff-
+ing when needed. I'll find some old HD for those media files.
+
+--
+That's "angle" as in geometry.
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

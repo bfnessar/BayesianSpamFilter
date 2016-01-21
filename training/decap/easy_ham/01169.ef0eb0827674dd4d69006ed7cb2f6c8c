@@ -1,0 +1,39 @@
+Subject: Re: CVS report
+
+
+>>>>> On Thu, 22 Aug 2002, "Chris" == Chris Garrigues wrote:
+
+  Chris> --==_Exmh_267413022P Content-Type: text/plain;
+  Chris> charset=us-ascii
+
+  +> From:  Anders Eriksson <aeriksson@fastmail.fm> Date:  Thu, 22 Aug
+  +> 2002 20:23:17 +0200
+
+  +> Oooops!
+
+  +> Doesn't work at all. Got this on startup and on any attempt to
+  +> change folde r (which fail)
+
+  Chris> ~sigh~ I'd already found that and checked it in....apparently
+  Chris> I did so after you checked it out and before you sent this
+  Chris> mail...I hoped I was fast enough that you wouldn't see it.
+
+  Chris> Try again!
+
+
+Works like a charm. It's like the box was on drugs or something. 
+
+However, while testing it a selected my favourite folder (l-k) and 
+marked ~400 messages unread. THAT took forever, or about as long as 
+Catch-up Unseen did before. Any suggestions?
+
+/A
+
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+

@@ -1,0 +1,25 @@
+Subject: [SAtalk] Razor problem
+
+I just picked up Razor SDK 2.03 and  2.14 agents from the the razor site.
+I am using SuSe 7.3 - intalled SDK with no problems. All tests passed.
+
+When I try to make the 2.14 agents I get all kinds of errors. In
+particuliar it says the net::dns is missing. But it seems to be there. The
+SDK test passes it.
+
+Any help would be appreciated.
+
+Doug
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

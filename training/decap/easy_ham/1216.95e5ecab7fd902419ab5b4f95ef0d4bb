@@ -1,0 +1,44 @@
+Subject: Re: Exmh && speed
+
+
+cwg-dated-1033065967.2dc492@DeepEddy.Com said:
+> From:  Chris Garrigues <cwg-exmh@DeepEddy.Com>
+> Date:  Wed, 28 Aug 2002 11:07:01 -0500 >
+> Here's a fix that I think will make a real difference.
+> 
+> Ftoc_ShowSequences needs to be able to be called with an optional
+> list of msgids 
+> to update and if it's called that way it only removes or adds tags
+> for those 
+> messages.  Then in places like MsgChange, we only update the
+> messages which have
+> changed.
+> 
+> Also, a separate Ftoc_ShowSequence function which only updates the
+> display of 
+> one sequence should be written which also takes an optional list of
+> msgids.
+>   
+> In a place like MsgChange, it would only need to update the cur
+> sequence.
+> 
+> If nobody else gets to it, I'll do this when I get back.
+
+> I just checked this in.  Let me know if it helps.
+
+> Chris 
+
+Congratulations Chris, you just made the hall of fame!! Speed is much better now. I haven't done any tests, but I'd say that latency dropped 2-3 times and we're back in good shape again.
+
+Well done!
+
+/Anders
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+

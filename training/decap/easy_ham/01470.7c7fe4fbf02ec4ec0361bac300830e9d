@@ -1,0 +1,50 @@
+Subject: RE: [SAtalk] Getting yourself removed from spam lists
+
+> -----Original Message-----
+> From: carlo@alinoe.com [mailto:carlo@alinoe.com]
+> Sent: 13 September 2002 14:21
+> To: spamassassin-talk@example.sourceforge.net
+> Subject: [SAtalk] Getting yourself removed from spam lists
+>
+> I get the feeling that the spammers never
+> remove emails from their lists.
+
+Correct...
+
+> On the other hand, that doesn't make sense:
+> wouldn't they get worried about their millions
+> of spams being wasted?  Don't they WANT *some*
+> prove that they indeed *reach* people somehow?
+
+No, they only have to prove that they send several million
+emails to 'potential clients' to get their money.  I don't think
+they even care much about bounces.  They're con-artists, why
+should they care about proving they actually reached people?
+ 
+> So... it seems to me that they DO clean up
+> their lists, but only when a spam fails to
+> deliver - or can't they detect that?
+
+Most of the time the bounce goes to some poor soul who has
+nothing to do with the spammer.
+
+> What do spammers do with email addresses in
+> their database that are undeliverable for a
+> few years?  Do they still continue to spam
+> them?
+
+Yes.
+
+Tony
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+

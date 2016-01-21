@@ -1,0 +1,40 @@
+Subject: [SACVS] CVS: spamassassin/t SATest.pm,1.15.4.1,1.15.4.2
+
+Update of /cvsroot/spamassassin/spamassassin/t
+In directory usw-pr-cvs1:/tmp/cvs-serv3992/t
+
+Modified Files:
+      Tag: b2_4_0
+	SATest.pm 
+Log Message:
+ok, looks like SA can now be run even with another version installed in /usr, again
+
+Index: SATest.pm
+===================================================================
+RCS file: /cvsroot/spamassassin/spamassassin/t/SATest.pm,v
+retrieving revision 1.15.4.1
+retrieving revision 1.15.4.2
+diff -b -w -u -d -r1.15.4.1 -r1.15.4.2
+--- SATest.pm	27 Aug 2002 21:44:14 -0000	1.15.4.1
++++ SATest.pm	28 Aug 2002 22:46:28 -0000	1.15.4.2
+@@ -15,7 +15,7 @@
+   my $tname = shift;
+ 
+   $scr = $ENV{'SCRIPT'};
+-  $scr ||= "../spamassassin";
++  $scr ||= "perl -w ../spamassassin";
+ 
+   $spamd = $ENV{'SPAMD_SCRIPT'};
+   $spamd ||= "../spamd/spamd -x";
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-commits mailing list
+Spamassassin-commits@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-commits
+

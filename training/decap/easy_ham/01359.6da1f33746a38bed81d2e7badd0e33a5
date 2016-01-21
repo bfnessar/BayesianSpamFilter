@@ -1,0 +1,46 @@
+Subject: Re: [SAtalk] O.T. Habeus -- Why?
+
+
+On Wednesday, August 28, 2002, at 11:48  AM, Robin Lynn Frank wrote:
+
+> If I were a spammer, I'd simply set up a server, send out my 
+> spam with the
+> Habeus headers and continue till I was reasonably certain I'd 
+> been reported.
+> Then I'd simply reconfigure the server and reconnect to a 
+> different IP.  As
+> long as no one can establish my connection to the web sites my spam is
+> directing people to, I'm home free.
+
+Uh... the reason is simple. Habeas runs something called the 
+"Habeas Infringers List", and if you use their trademark without 
+their permission, you'll end up on it.  Then, when you send spam 
+with the misappropriated header, users of SA (2.40 supports 
+this) will tag your mail as spam, rather than let it through. 
+This may be done independantly of your IP address, so be 
+prepared to constantly change domain names, and move your 
+servers as fast as you send spam.
+
+Also, that little haiku is a copyrighted work, so not only CAN 
+Habeas sue, they MUST sue to protect their copyright. And since 
+it's a trademark as well, that's a double-whammy. Habeas has 
+some pretty high-powered legal people, who will gladly go to 
+town on violators.
+
+The whole point here is to give them the legal leverage they 
+need to put spammers out of business, and not only block mail 
+from them, but allow through the things that really AREN'T spam.
+
+--B
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: Jabber - The world's fastest growing 
+real-time communications platform! Don't just IM. Build it in! 
+http://www.jabber.com/osdn/xim
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

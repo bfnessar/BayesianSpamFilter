@@ -1,0 +1,47 @@
+Subject: Re: [Razor-users] problems with hubris and/or discovery
+
+From nobody Tue Oct 27 11:29:24 2015
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+Folks,
+
+     There have been several major internet outages this morning,
+     across major providers UUNet, Genuity, and god knows who else.
+     Various routes across the Internet backbones have been
+     disappearing, repropagating, and disappearing again.
+
+     This has caused and exacerbated several problems which we are
+     working on correcting right now.  We apologize for the
+     inconvenience..
+
+Best,=20
+
+--jordan
+
+
+
+On Thu, Oct 03, 2002 at 01:18:25PM -0400, Sven Willenberger wrote:
+# trying to report spam [razor chooses hubris] I timeout on the connection
+# (which seems to have gotten slower all morning) and receive the following
+# error message:
+#=20
+# razor-report error: connect4: nextserver: discover1: Error reading socket
+# connect4: nextserver: discover1: Error reading socket
+#=20
+# I then try to run razor-admin -discover and receive the same error .....
+# problems with the servers today? only one discovery server?
+#=20
+# Sven
+#=20
+#=20
+#=20
+# -------------------------------------------------------
+# This sf.net email is sponsored by:ThinkGeek
+# Welcome to geek heaven.
+# http://thinkgeek.com/sf
+# _______________________________________________
+# Razor-users mailing list
+# Razor-users@lists.sourceforge.net
+# https://lists.sourceforge.net/lists/listinfo/razor-users

@@ -1,0 +1,25 @@
+Subject: Re: [SAtalk] Can someone please tell me how to get an answer from
+    this list?
+
+On Mon, 16 Sep 2002, Justin Mason wrote:
+
+> Simon Matthews said:
+> 
+> > Procmail 3.21 is reliable as long as none of the recipies fails. I was 
+> > hoping to resolve the triplets.txt problem and thus avoid the procmail 
+> > "^rom" problem. 
+> 
+> I doubt it's related, actually -- the "triplets" stuff is in a totally
+> unrelated area of code.
+
+The procmail bug happens when the filter program does something that 
+procmail doesn't expect.  Exactly what that something is, hasn't been
+confirmed by anyone on the procmail list.  It might be exiting with a
+nonzero status, or it might be producing output on the standard error,
+or it might be something else entirely.
+
+So Simon is attempting to get SA to run flawlessly, because then it can't
+tickle the procmail bug.  This isn't a fix, it's a band-aid, but because
+he apparently doesn't have the option of installing a newer procmail ...
+
+

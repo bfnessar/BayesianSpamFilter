@@ -1,0 +1,38 @@
+Subject: [SAtalk] Some Stupid Questions
+
+As the subject line indicates, I'm sure these are stupid questions, but
+I'm having trouble getting SA working like I understand it should work,
+and have about given up on trying to figure it out myself.
+
+If a user has a line like:
+
+whitelist_from *@yahoogroups.com
+
+in his .spamassassin/user_prefs file, does that line not, in effect,
+tell the program to take no action at all against any mail coming in from
+yahoogroups.com, or is there still checking being done against it?  And if
+the latter, what does he need to place in user_prefs to cause such mail
+to be ignored?  I'm testing SA here with a few users who happen to be on
+yahoogroups lists, before deploying it system-wide, and although the above
+line has been added to their user_prefs files, much of their list mail is
+still going to the spam folder due to all the usual things you would
+expect to trigger SA.
+
+Thanks in advance for any help.
+
+--
+Ken Scott,
+admin@shellworld.net
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

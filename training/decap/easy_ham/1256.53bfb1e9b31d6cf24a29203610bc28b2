@@ -1,0 +1,33 @@
+Subject: ARRRGHHH Had GPG working, now it doesnt.
+
+HELP.
+I had GPG working.
+I updated from version gnupg-1.0.6 to gnupg-1.0.7.
+This moved gpg from /usr/bin to /usr/local/bin and I changed the path
+in the exmh 'executable'.
+
+With that fix, EXMH knows I have GPG, and puts the line
+
+	Check the signature with GnuPG
+
+in messages with GnuPG signatures.  But punching the line ALWAYS
+gives
+
+        Signature made Thu Aug 29 00:27:17 2002 MDT using DSA key ID BDDF997A
+        Can't check signature: public key not found
+
+So, something else is missing.
+Can somebody tell me what it is,- Ive tried grepping on everything
+that I can think of with no luck at all.
+-- 
+                                        Reg.Clemens
+                                        reg@dwf.com
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+

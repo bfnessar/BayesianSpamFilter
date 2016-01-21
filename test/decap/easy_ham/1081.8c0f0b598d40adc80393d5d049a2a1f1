@@ -1,0 +1,43 @@
+Subject: Re: Sorting
+
+On Wed, 11 Sep 2002 01:24:46 +0200 
+Robert Waldner <waldner@waldner.priv.at> wrote:
+> On Tue, 10 Sep 2002 09:27:12 PDT, J C Lawrence writes:
+
+>> I run exmh on my desktops at home and at work with the resulting exmh
+>> windows being displayed on both my work and home desktops (gratis SSH
+>> X11 forwarding).  In fact, your message was read and replied to (this
+>> message) while at work, using an exmh instance running on my home
+>> machine.
+
+> So you have 4 copies (1+1 per desktop) of exmh running?
+
+Yes.
+
+One of the nicer aspects of exmh's colour handling is that while I have
+the default background for the message pane set to black, the second
+insance of exmh displaying to a given $DISPLAY will set the background
+of the message pane to darkslategray.  Very nice as it provides an
+instant visual cue as to which is which.  (No: I've not checked where it
+gets that colour selection from).
+
+> That's what I usually do, but what I'd really like would be some
+> automagism to tell them "Flist", "Rescan Folder", which I now do
+> manually whenever I'm going to work at the "other" machine.
+
+<nod>
+
+-- 
+J C Lawrence                
+---------(*)                Satan, oscillate my metallic sonatas. 
+claw@kanga.nu               He lived as a devil, eh?		  
+http://www.kanga.nu/~claw/  Evil is a name of a foeman, as I live.
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

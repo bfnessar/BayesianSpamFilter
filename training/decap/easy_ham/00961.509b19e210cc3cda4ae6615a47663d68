@@ -1,0 +1,31 @@
+Subject: Re: New Sequences Window
+
+From nobody Tue Oct 27 11:29:24 2015
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Robert Elz <kre@munnari.OZ.AU>
+> Date:  Wed, 28 Aug 2002 21:06:30 +0700
+>
+> It may be that your new sequence method just exposed the bug that had been
+> there all along.
+
+*grin*  That's what the past 3 or 4 months of exmh hacking has been all about 
+for me.
+
+I've now stabilized everything pretty well for my paid job, so I'll probably 
+poke around at the sequences performance issues, but rather than checking 
+changes in, I'll email anything I figure out since I'm leaving town in less 
+than 48 hours.
+
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

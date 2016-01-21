@@ -1,0 +1,24 @@
+Subject: Mplayer
+
+Hey
+
+Since I upgraded to redhat8 mplayer -vo sdl isnt working for me
+It gives me black screen and I only hear sound.
+
+can anyone help me with this ?
+
+btw,
+also the source rpm specified that I can do --without libdv
+but it didn't work, worked for lirc and arts.
+
+Thanks,
+Roi
+
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

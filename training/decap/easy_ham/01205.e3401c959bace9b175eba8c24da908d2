@@ -1,0 +1,21 @@
+Subject: Re: apt 0.5.7 on RH 7.x
+
+Hi.
+
+Matthias Saou <matthias@egwn.net> wrote:
+
+> repository... and there's where the problem will be : It will say that
+> there are two synaptic-0.24-fr1 packages (one installed, the other
+> available) with the same version but different dependencies :-/
+> That's why I always keep package versions lower for older distributions.
+
+Ah, now I see. This is a non-issue here, so I'll rebuild locally :)
+
+-- 
+Dog for sale: eats anything and is fond of children.
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

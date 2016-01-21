@@ -1,0 +1,42 @@
+Subject: Re: alsa-driver.spec tweak for homemade kernels
+
+Once upon a time, Ben wrote :
+
+> I use a mostly Red Hat 8.0 system, but prefer to configure and build my 
+> kernel by hand.  I'd like to humbly offer a tweak to alsa-driver.spec 
+> that helps it build cleanly under such circumstances.  I recognize that 
+> freshrpms.net packages are designed with standard Red Hat in mind, 
+> including a standard kernel RPM.  However, I hope that Matthias will 
+> consider the tweak small enough to justify its incorporation.
+
+Well, I don't really find it consistent at all to use an rpm package built
+against something that wasn't installed through rpm :-/
+
+What I'd recommend in your case : You should keep at least one original Red
+Hat Linux kernel (you do just in case, right? ;-)) and install the matching
+alsa-kernel package as you'll need at least one because of the
+dependencies. Then for your custom built kernel, simply "./configure
+--with-cards=all && make && make install DESTDIR=/tmp/alsa-driver" from the
+alsa-driver sources then as root copy all the modules under
+/tmp/alsa-driver/lib/modules/ to your modules dir and run "depmod -a".
+
+Of course you can even make it much faster by not compiling all un-needed
+drivers, as I guess that's one of the reasons one would rebuild his own
+kernel.
+
+I find this the easiest and cleanest way to get around the problem. It's
+what I've done and what I'll keep doing on my laptop where I'm running a
+kernel recompiled with ACPI.
+
+Matthias
+
+-- 
+Clean custom Red Hat Linux rpm packages : http://freshrpms.net/
+Red Hat Linux release 7.3 (Valhalla) running Linux kernel 2.4.18-10acpi
+Load : 0.00 0.02 0.00
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

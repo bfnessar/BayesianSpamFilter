@@ -1,0 +1,63 @@
+Subject: Red Hat 8.0
+
+Hi,
+
+Red Hat 8.0 is released tomorrow (monday).  I took some time out to make 
+RPMs of GStreamer for it.
+
+All of them (core, plugins and player) have been uploaded to the apt 
+repository in a new "redhat-80-i386" directory.
+
+The repository for dependencies is again called "deps", and the one for 
+the gstreamer rpms is "redhat", because this time around the base distro 
+contains all the necessary packages.
+
+A screenshot of Red Hat 8.0 running gst-player is up at
+http://thomas.apestaart.org/download/screenshots/redhat-80-gst-player.png
+
+
+Here are some known issues with the resulting rpms :
+
+a) gstreamer-nautilus isn't built, the package got renamed and I don't 
+have a -devel package for it yet
+
+b) the c++ plugins have problems which I haven't been able to resolve.
+Here are the errors:
+
+INFO (15299: 0)gst_xml_registry_rebuild:1555: Plugin 
+/usr/lib/gst/libgstwincodec.so failed to load: Error loading plugin 
+/usr/lib/gst/libgstwincodec.so, reason: /usr/lib/libaviplay-0.7.so.0: 
+undefined symbol: _ZTVN10__cxxabiv120__si_class_type_infoE
+
+Plugin /usr/lib/gst/libgstwincodec.so failed to load
+DEBUG(15299: 0)gst_plugin_load_plugin:161: attempt to load plugin 
+"/usr/lib/gst/libgstmodplug.so"
+INFO (15299: 0)gst_xml_registry_rebuild:1555: Plugin 
+/usr/lib/gst/libgstmodplug.so failed to load: Error loading plugin 
+/usr/lib/gst/libgstmodplug.so, reason: /usr/lib/gst/libgstmodplug.so: 
+undefined symbol: __gxx_personality_v0
+
+I'm not sure how to fix this; running strings on the libs in /usr/lib 
+reveals that there are other libs that have these symbols, so there must 
+be something straightforward that should fix this.
+If anyone has a suggestion, please share ;)
+
+Thomas
+
+-- 
+
+The Dave/Dina Project : future TV today ! - http://davedina.apestaart.org/
+<-*-                      -*->
+Kiss me please kiss me
+Kiss me out of desire baby not consolation
+Oh you know it makes me so angry cause I know that in time
+I'll only make you cry
+<-*- thomas@apestaart.org -*->
+URGent, the best radio on the Internet - 24/7 ! - http://urgent.rug.ac.be/
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

@@ -1,0 +1,33 @@
+Subject: Re: [SAdev] Re: [SACVS] CVS: spamassassin/rules 60_whitelist.cf,1.29,1.30
+
+On Monday 09 September 2002 11:13 CET Matt Sergeant wrote:
+> Malte S. Stretz wrote:
+> >[...]
+> > So I'd vote for a complete removal of 60_whitelists.cf and a page
+> > http://spamassassin.org/tests/whitelists.html where we list common
+> > whitelist entries instead.
+>
+> I would happily agree to that.
+>
+> Though maybe it should be a wiki... ;-)
+
+Just imagine what Ronnie Scelson would do to a wiki *shudder*
+
+M
+-- 
+--- Coding is art.
+-- 
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+

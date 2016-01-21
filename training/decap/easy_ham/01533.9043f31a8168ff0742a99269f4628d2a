@@ -1,0 +1,25 @@
+Subject: Re: [SAtalk] razor2 auth? 
+
+
+Randy Bush said:
+
+> >> freebsd -stable
+> >> spamassassin 2.41
+> >>     spamasassin -r
+> >> results in
+> >> razor2 report failed: No such file or directory Razor2 reporting requires 
+> authentication at /usr/local/lib/perl5/site_perl/5.005/Mail/SpamAssassin/Repo
+> rter.pm line 77.
+> >> used to work until upgrade
+> > 
+> > using spamd?  try the -H switch. 
+> 
+> no, pipinng the message to "spamassassin -r" from within my mail
+> user agent, VM under Emacs.
+
+oops, sorry -- didn't notice the "report" bit.  Yes, you need to register
+for Razor2 -- "razor-register" or "razor-admin -register" if I recall
+correctly.
+
+--j.
+

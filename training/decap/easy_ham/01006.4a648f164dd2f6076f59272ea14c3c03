@@ -1,0 +1,25 @@
+Subject: bad focus/click behaviours
+
+
+I am a (tv)twm user. when I snarf text into my mouse cut buffer, and then
+attempt to inject it into the exmh input windows for comp/repl, the 'point'
+is often an apparently random place in the text pane, not where I think I
+have current flashing cursor. 
+
+I usually wipe out any of To:/Subject:/<random body> with the text. Its
+often not even beginning of line denoted, ie its an unexplicable number
+of char spaces in to the text where it inserts, 
+
+What am I doing wrong in either X, WM, shell, EXMH which is causing this?
+
+cheers
+	-George
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

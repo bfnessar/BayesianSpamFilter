@@ -1,0 +1,31 @@
+Subject: why is decentralization worth worrying about?
+
+Why am I so passionate about decentralization? Because I believe some of 
+today’s most profound problems with networked applications are caused by 
+centralization.
+
+Generically, a centralized political or economic system permits only one 
+answer to a question, while decentralization permits many separate 
+agents to hold different opinions of the same matter. In the specific 
+context of software, centralized variables can only contain one valid 
+value at a time. That limits us to only representing information A) 
+according to the beliefs of a single agency, and B) that changes more 
+slowly than it takes to propagate. Nevertheless, centralization is the 
+basis for today’s most popular architectural style for developing 
+network applications: client-server interaction using request-response 
+communication protocols.
+
+I believe these are profound limitations, which we are already 
+encountering in practice. Spam, for example, is in the eye of the 
+beholder, yet our email protocols and tools do not acknowledge the 
+separate interests of senders and receivers. Slamming, for another, 
+unfairly advantages the bidder with the lowest-latency connection to a 
+centralized auction server. Sharing ad-hoc wireless networks is yet a 
+third example of decentralized resource allocation. Furthermore, as 
+abstract as centralization-induced failures might seem today, these 
+limits will _not_ improve as the cost of computing, storage, and 
+communication bandwidth continue to plummet. Instead, the speed of light 
+and human independence constitute _fundamental_ limits to centralized 
+information representation, and hence centralized software architecture.
+
+

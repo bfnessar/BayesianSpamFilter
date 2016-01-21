@@ -1,0 +1,26 @@
+Subject: Re: [SAtalk] redhat init.d script for spamd and the -H option
+
+From nobody Tue Oct 27 11:29:24 2015
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+On Fri, Sep 06, 2002 at 11:32:01AM -0500, Josh Hildebrand wrote:
+> Unfortunately, when I run that, it complains about the H parameter.
+>=20
+>   -F 0|1          remove/add 'From ' line at start of output (default: 1)
+>=20
+> But I can run it on the command line as "spamd -d -c -a -H" just fine.
+>=20
+> Anyone else run into this problem?
+
+you look to have 2 versions of spamd installed.  The one running from
+the RC script is pre-2.4 (there is a -H now, and -F has been removed),
+but the one you run from the commandline seems to be a 2.4x version.
+
+I would find that old version of SA and blow it away.
+
+--=20
+Randomly Generated Tagline:
+"If you lend someone $20, and never see that person again, it was probably
+ worth it." - Zen Musings

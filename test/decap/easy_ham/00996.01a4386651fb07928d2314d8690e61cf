@@ -1,0 +1,49 @@
+Subject: Re: Sorting
+
+There is an "Update all scan caches" menu entry that rescans your
+folders similar to the short scripts folks have shared around.  It
+runs in the background.
+
+>>>Rick Baartman said:
+ > > > On Mon, 9 Sep 2002, Rick Baartman wrote:
+ > > Thanks Tom and Jacob. The above works, but without the double quotes: 
+i.e.
+      
+ > > 
+ > > sh -c 'for f in `folders -recurse -fast` ; do sortm +"$f" ; done'
+ > > 
+ > But there is a problem with making changes outside of exmh: the 
+.xmhcache fi
+     les 
+ > don't get updated. This is dangerous; I have to remember to re-scan each 
+fol
+     der 
+ > I enter. Is there a safeguard for this?
+ > 
+ > --
+ > rick
+ > 
+ > 
+ > 
+ > 
+ > _______________________________________________
+ > Exmh-users mailing list
+ > Exmh-users@redhat.com
+ > https://listman.redhat.com/mailman/listinfo/exmh-users
+
+--
+Brent Welch
+Software Architect, Panasas Inc
+Pioneering the World's Most Scalable and Agile Storage Network
+www.panasas.com
+welch@panasas.com
+
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

@@ -1,0 +1,38 @@
+Subject: Linking message [was: Re: Patch to complete a change...]
+
+On Tue Sep 10 2002 at 12:52, Robert Elz wrote:
+
+> Subject: Patch to complete a change...
+
+> I guess that most of us don't use "link" very often ... I noticed it
+> last week, but only got time to look and see why today.
+
+I would like to use [Link] a lot more, but is it rather
+inconvenient.
+
+I have set my right mouse button to [Move] a message to another
+folder, which works fine.
+
+However, [Link] also uses the same destination folder as [Move], and
+so if I want to use [Link] I first have to mark the destination
+folder with a message-move, undo the move, then I can use the
+[Link].  Very inconvenient.
+
+Is there a better way for me to set this up so that [Link] works
+with one or two simple clicks?
+
+(In essence: is there a way to mark a destination folder for a
+message link or move without actually doing a move or link, I
+couldn't see anything obvious).
+
+Cheers
+Tony
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

@@ -1,0 +1,39 @@
+Subject: Re: [SAtalk] Re: Other uses for SA?
+
+
+Brian R. Melcer said:
+>> I've got spamassassin installed and tested on MacOS X 10.1.5,
+>> although there are issues with spamd still.  So in addition to
+>> looking for new and different uses for SA, I'd like to hear
+>> from folks using it under MacOS X.
+>
+> I just recently converted our SA setup to use Amavisd into our Postfix
+
+Amavisd or Amavisd-new? If the latter, you don't need spamd running, since
+amavisd-new calls SA functions directly.
+
+-- 
+PGP Fingerprint: 0AA8 DC47 CB63 AE3F C739 6BF9 9AB4 1EF6 5AA5 BCDF
+Member, LEAF Project <http://leaf.sourceforge.net>    AIM: MikeLeone
+Public Key - <http://www.mike-leone.com/~turgon/turgon-public-key.asc>
+
+Some days you're the pigeon; some days you're the statue.
+
+
+
+
+Random Thought:
+--------------
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

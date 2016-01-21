@@ -1,0 +1,45 @@
+Subject: Re: New Sequences Window
+
+From nobody Tue Oct 27 11:29:24 2015
+Content-Type: text/plain; charset=us-ascii
+
+> From:  Robert Elz <kre@munnari.OZ.AU>
+> Date:  Sat, 24 Aug 2002 18:56:05 +0700
+>
+>     Date:        Thu, 22 Aug 2002 10:04:06 -0500
+>     From:        Chris Garrigues <cwg-dated-1030460647.7351a3@DeepEddy.Com>
+>     Message-ID:  <1030028647.6462.TMDA@deepeddy.vircio.com>
+> 
+>   | hmmm, I assume you're going to report this to the nmh folks?
+> 
+> Yes, I will, sometime, after I look at the nmh sources and see what
+> they have managed to break, and why.
+> 
+> But we really want exmh to operate with all the versions of nmh that
+> exist, don't we?   The patch to have exmh do the right thing, whether this
+> bug exists, or not, is trivial, so I'd suggest including it.
+> 
+> Patch follows ...
+> 
+> I have no idea why the sequences were being added after the message list
+> before, not that it should make any difference to nmh (or MH).   But since
+> I stopped doing that, the variable "msgs" isn't really needed any more,
+> rather than assigning $pick(msgs) to msgs, and then using $msgs the code
+> could just use $pick(msgs) where $msgs is now used.   This is just a
+> frill though, so I didn't change that.  
+
+I'll fix this in CVS this afternoon.
+
+Thanks,
+Chris
+
+-- 
+Chris Garrigues                 http://www.DeepEddy.Com/~cwg/
+virCIO                          http://www.virCIO.Com
+716 Congress, Suite 200
+Austin, TX  78701		+1 512 374 0500
+
+  World War III:  The Wrong-Doers Vs. the Evil-Doers.
+
+
+

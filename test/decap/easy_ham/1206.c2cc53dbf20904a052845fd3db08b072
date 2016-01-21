@@ -1,0 +1,34 @@
+Subject: Re: bad focus/click behaviours
+
+>>>Hal DeVore said:
+ >     "Brent said in his book"
+ >     This Paste function can be convenient, but it turns out that
+ >     users still need to keep track of the difference between the
+ >     two selections.  If a user only understands the CLIPBOARD,
+ >     then the user of PRIMARY is only surprising.  I learned that
+ >     it is best to have a separate paste user action for the two
+ >     selections.  The convention is that <ButtonRelease-2> sets
+ >     the insert point and inserts the PRIMARY selection. ... The
+ >     <<Paste>> event (e.g., the Paste key) simply inserts the
+ >     CLIPBOARD selection at the current insert point. ...
+
+Yeah, I learned by hearing exmh users scream in agony.  Sorry about
+all that.  We should be able to clean this up.  If you grep for
+"bind" in seditBind you quickly find the Text_Selection proc
+I described in the previous email.
+
+--
+Brent Welch
+Software Architect, Panasas Inc
+Pioneering the World's Most Scalable and Agile Storage Network
+www.panasas.com
+welch@panasas.com
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

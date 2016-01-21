@@ -1,0 +1,51 @@
+Subject: Re: Mplayer
+
+Matthias Saou wrote:
+
+>Once upon a time, Roi wrote :
+>
+>  
+>
+>>Since I upgraded to redhat8 mplayer -vo sdl isnt working for me
+>>It gives me black screen and I only hear sound.
+>>
+>>can anyone help me with this ?
+>>    
+>>
+>
+>I'll test this as soon as I can.
+>
+>  
+>
+>>btw,
+>>also the source rpm specified that I can do --without libdv
+>>but it didn't work, worked for lirc and arts.
+>>    
+>>
+>
+>Should be fixed : You probably had libdv-devel installed and MPlayer
+>automatically detected it. The new spec file explicitely passes
+>--disable-libdv when the package is rebuilt with --without libdv.
+>
+>Grab the "fr2.1" spec from here :
+>http://freshrpms.net/builds/index.html?build=mplayer
+>
+>Matthias
+>
+>  
+>
+The new spec didn't even want to build the package
+something with config.mak
+Also this new spec looks like the old one, it got libdv and libdv-devel
+in the BuildRequires so I just used the normal spec and removed it manully.
+
+Roi
+
+
+
+
+_______________________________________________
+RPM-List mailing list <RPM-List@freshrpms.net>
+http://lists.freshrpms.net/mailman/listinfo/rpm-list
+
+

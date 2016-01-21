@@ -1,0 +1,43 @@
+Subject: Re: [SAtalk] Tru64 compile of SA
+
+Don Newcomer wrote:
+> I'm a new user (or about to be, hopefully) of SA but I've run into some
+> compilation errors that prevent me from installing.  Rather than picking
+> through the code, I thought I'd avoid reinventing the wheel and ask here.
+> When I run the 'make', I get the following:
+> 
+> cc: Error: spamd/spamc.c, line 50: In this declaration, "in_addr_t" has no
+> linka
+> ge and has a prior declaration in this scope at line number 572 in file
+> /usr/inc
+> lude/sys/types.h. (nolinkage)
+> typedef unsigned long   in_addr_t;      /* base type for internet address
+> */
+
+Don't worry about the warnings. To fix the error, edit spamc.c and right 
+after the line that says:
+
+#define EX__MAX 77
+
+Add:
+
+#if !defined __osf__
+extern char *optarg;
+typedef unsigned long   in_addr_t;      /* base type for internet address */
+#endif
+
+(you're adding the two lines that start with #).
+
+--Rick
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+

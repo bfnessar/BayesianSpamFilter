@@ -1,0 +1,57 @@
+Subject: Re: Sorting
+
+On Tue, 10 Sep 2002 10:29:26 -0400 
+Tom Reingold <noglider@pobox.com> wrote:
+> On Tue, 10 Sep 2002 01:20:56 PDT, J C Lawrence <claw@kanga.nu> wrote:
+
+>> Ahh.  At work we fire people who use Outlook (Literally true: They
+>> get escorted to the door, their badge confiscated, and told to return
+>> the next day to collect their office contents).
+
+> Why?  What threat does Outlook pose to your organization?
+
+It places the company, corporate network and data at risk.
+
+Outlook is subject to an (absurdly large) number of exploits with more
+being regularly found.  An exploited system, to whatever extent, places
+other corporate systems at risk, customer systems at risk, company
+reputation and liability with customers at risk, and
+proprietary/corporate data at risk.  Further, users cannot be reliably
+expected to use Outlook in a safe manner.  The net result is that
+Outlook use is considered to be somewhere between criminal negligence
+and deliberately malicious as far as the employer is concerned.
+
+>> Have you looked into using a custom sequences file?
+
+> More detail please?  I do use sequences, so I'm familiar with their
+> use, but how can I make indices with them, and how can I keep them up
+> to date?
+
+I don't use custom sequences, so I can't comment well.  I suspect that
+you'd have to use a cron job to maintain the sequences.
+
+>> The only thing I actually miss in that regard is support for S/MIME.
+
+> You're probably running exmh on a local machine.  I'm running it on a
+> very remote machine.  In this scenario, the mime handling is weak.
+
+Nope.  I run exmh on my desktops at home and at work with the resulting
+exmh windows being displayed on both my work and home desktops (gratis
+SSH X11 forwarding).  In fact, your message was read and replied to
+(this message) while at work, using an exmh instance running on my home
+machine.
+
+-- 
+J C Lawrence                
+---------(*)                Satan, oscillate my metallic sonatas. 
+claw@kanga.nu               He lived as a devil, eh?		  
+http://www.kanga.nu/~claw/  Evil is a name of a foeman, as I live.
+
+
+
+_______________________________________________
+Exmh-users mailing list
+Exmh-users@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-users
+
+

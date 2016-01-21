@@ -1,0 +1,26 @@
+Subject: Re: [SAdev] Interesting approach to Spam handling..
+
+David Höhn wrote:
+> Hello, have you seen and discussed this article and his approach?
+> 
+> Thank you
+> 
+> http://www.paulgraham.com/spam.html
+
+Yes. See the perl module Mail::SpamTest::Bayesian on CPAN, and the 
+thread on sa-talk.
+
+Matt.
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+

@@ -1,0 +1,41 @@
+Subject: [Razor-users] "Can't use and undefined value.." error
+
+I just installed razor 2.152 on a FreeBSD 4.4-RELEASE box and having
+problems with razor-check.  Any time razor-check is run, (with or without
+arguments), i get this error:
+
+Can't use an undefined value as a symbol reference at
+/usr/local/lib/perl5/site_perl/5.005/i386-freebsd/Razor2/Client/Agent.pm
+line 756.
+
+razor-admin runs just fine and the make test before the install was all
+ok.
+
+Has anyone seen this before?
+
+Module versions:
+Digest-HMAC-1.01
+Digest-MD5-2.20
+Digest-Nilsimsa-0.06
+Digest-SHA1-2.01
+MIME-Base64-2.12
+Net-DNS-0.23
+Test-Simple-0.44
+Time-HiRes-01.20
+URI-1.19
+
+
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+

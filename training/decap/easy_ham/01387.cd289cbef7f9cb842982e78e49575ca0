@@ -1,0 +1,40 @@
+Subject: [SACVS] CVS: spamassassin procmailrc.example,1.3,1.3.2.1
+
+Update of /cvsroot/spamassassin/spamassassin
+In directory usw-pr-cvs1:/tmp/cvs-serv7642
+
+Modified Files:
+      Tag: b2_4_0
+	procmailrc.example 
+Log Message:
+added length limit to sample procmail recipe
+
+Index: procmailrc.example
+===================================================================
+RCS file: /cvsroot/spamassassin/spamassassin/procmailrc.example,v
+retrieving revision 1.3
+retrieving revision 1.3.2.1
+diff -b -w -u -d -r1.3 -r1.3.2.1
+--- procmailrc.example	16 Aug 2002 18:34:27 -0000	1.3
++++ procmailrc.example	29 Aug 2002 13:37:43 -0000	1.3.2.1
+@@ -1,5 +1,7 @@
+-# Pipe the mail through spamassassin
++# Pipe the mail through spamassassin, unless it's over 256k
++# (SpamAssassin can take a long time to process large messages)
+ :0fw
++* < 256000
+ | spamassassin
+ 
+ # Move it to the "caughtspam" mbox if it was tagged as spam
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Spamassassin-commits mailing list
+Spamassassin-commits@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-commits
+

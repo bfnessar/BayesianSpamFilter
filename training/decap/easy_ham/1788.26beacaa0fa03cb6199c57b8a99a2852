@@ -1,0 +1,17 @@
+Subject: [Spambayes] understanding high false negative rate 
+
+
+> Looks like your ham corpus by and large has To: jeremy@alum.mit.edu in
+> a header while your spam corpus by and large doesn't.  But this one
+> does.
+
+Interestingly, for me, one of the highest value spam indicators was
+the name of the mail host that the spam was delivered to, in the To:
+line. So mail to info@gin.elax2.ekorp.com was pretty much a dead cert
+for the filters.
+
+
+-- 
+Anthony Baxter     <anthony@interlink.com.au>   
+It's never too late to have a happy childhood.
+
